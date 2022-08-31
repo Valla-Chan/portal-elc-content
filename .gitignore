@@ -12,6 +12,7 @@
 *.sav
 *.tga
 *.bmz
+*.bsp
 
 # specific
 pee*
