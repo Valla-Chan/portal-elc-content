@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "effects/vignette_leftside"
+	"$translucent" 1
+}

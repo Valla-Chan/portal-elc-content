@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+$basetexture "nature/dirtfloor005b_embers_overlay"
+$decal 1
+$translucent 1
+$color "[1.4 0.7 0.2]"
+}

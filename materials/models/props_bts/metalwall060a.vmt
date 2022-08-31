@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Metal/metalwall060a"
+	"$surfaceprop" "metal"
+
+	"$detail" "detail\metal_detail_01"
+	"$detailscale" "4.283"
+	"$detailblendfactor" .3
+	"$detailblendmode" "0"
+
+	//$bumpmap "Metal/metalwall060a_n"
+
+	//"$phong" "1"
+	//"$phongexponent" "15"
+	//"$phongboost"	"1"
+	//"$phongfresnelranges"	"[.1 0.4 2]"
+
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	//"$envmapcontrast" 0.9
+	//"$envmapsaturation" 1
+	"$envmaptint" "[ 0.45 0.45 0.45 ]"
+}

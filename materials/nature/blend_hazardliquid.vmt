@@ -1,0 +1,75 @@
+"WorldVertexTransition"
+//"unlitgeneric"
+{
+	"$basetexture" "nature\hazard_liquid_ani"
+	"$basetexture2" 		"tools/toolsblack"
+	"%tooltexture" 			"nature\hazard_liquid"
+
+	"$blendmodulatetexture" "nature\blend_pathrock_forest_01"
+
+	$basetexturetransform "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+	$detailtexturetransform "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .08 .09 .10 ]"
+
+	//"$envmaptint" "[ .10 .11 .13 ]"
+	"$envmapcontrast" "1"
+		"$bumpmap"  "dev/waterA_normal"		// These two slide...
+		"$bumpmap2" "dev/water_normal"		// ...against each other
+		"$bumpmask" "dev/flat_normal"
+
+	$detail "nature\hazard_liquid_detail01"
+	$detailblendfactor 2
+	$detailscale 2
+	$detailblendmode 0
+
+	//$color "[0.1 0.3 0.5]"
+	$additive 1
+	$selfillum 1
+	$selfillumtint 1.6
+	//$translucent 1
+
+	"$surfaceprop" 			"water"
+	%noportal 1
+
+Proxies
+{
+		// "AnimatedTexture"
+		//{
+		//	"animatedtexturevar" "$bumpmap"
+		//	"animatedtextureframenumvar" "$bumpframe"
+		//	"animatedtextureframerate" 20.00
+		//}
+		"AnimatedTexture" 
+		{ 
+			"animatedTextureVar" "$basetexture" 
+			"animatedTextureFrameNumVar" "$frame" 
+			"animatedTextureFrameRate" "20" 
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .025
+			"texturescrollangle" -35.00
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .010
+			"texturescrollangle" -35.00
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$detailtexturetransform"
+			"texturescrollrate" 1000.90
+			"texturescrollangle" 240
+		}
+}
+
+	//$basetexturescale 2
+	//$basetexturescale2 4
+
+}
+
+

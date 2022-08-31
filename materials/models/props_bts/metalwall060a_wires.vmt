@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Metal/metalwall060b"
+	$alphatest 1
+	$allowalphatocoverage 1
+}

@@ -1,0 +1,17 @@
+"Sprite"
+{
+	"$spriteorientation" "vp_parallel_oriented"
+	"$spriteorigin" "[ 0.50 0.50 ]"
+	"$spritescale" "1"
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	"$basetexture" "sprites/orangecore1"
+	"$ignorez" 1
+	Proxies
+	{
+		MaterialModify
+		{
+
+		}
+	}
+}

@@ -1,0 +1,19 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/metaltruss016a"
+	$bumpmap "Metal/metaltruss016a_n"
+	$ssbump 1
+
+	$envmap env_cubemap
+//	$envmaplightscale 1
+//	$envmaptint "[0.12 0.13 0.12]"
+	$envmaptint "[0.01 0.017 0.01]"
+
+
+	$normalmapalphaenvmapmask 1
+
+
+	"$surfaceprop" "metal"
+	%noportal 1
+	"%keywords" "c17industrial,wasteland,portal"
+}

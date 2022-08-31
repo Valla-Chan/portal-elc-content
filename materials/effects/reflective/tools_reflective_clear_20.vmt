@@ -1,0 +1,34 @@
+Water
+{
+$forceexpensive 1
+$reflectentities 1
+$reflect2dskybox 0
+$reflectonlymarkedentities 0
+
+$additive 1
+
+"$normalmap" "dev/flat_normal"
+
+	"$envmap" "env_cubemap"
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" "0.5"
+	//"$refracttint" "[0.95 1.0 0.97]"
+
+	"$reflecttexture" "_rt_WaterReflection"
+	"$reflectamount" "1.0"
+	"$reflecttint" "[100 100 100]"
+
+
+$abovewater 1
+"$bottommaterial" "dev/dev_waterbeneath2"
+//$fogenable 1
+$fogstart 99990
+$fogend 100000000
+
+
+$fogcolor "{ 0 0 0 }"
+"%compilewater" 1
+"%tooltexture" "effects\reflective/tools_reflective"
+$surfaceprop metal
+
+}

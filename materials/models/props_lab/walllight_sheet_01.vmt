@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Models/props_lab/walllight_sheet"
+	"$selfillum" "1"
+	$selfillumtint "[0.39 0.44 0.53]"
+}

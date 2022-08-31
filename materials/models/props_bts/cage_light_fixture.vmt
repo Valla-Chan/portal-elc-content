@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_bts/cage_light_fixture"
+$surfaceprop metal
+$basemapalphaphongmask 1
+$model 1
+
+$selfillum 0
+
+
+	"$phong"     "1"
+	"$phongexponent"  "1"
+	"$phongboost"   "3"
+	"$phongfresnelranges"   "[.4 .6 1]"
+	//"$phongtint"   "[.3 .3 .3]"
+}

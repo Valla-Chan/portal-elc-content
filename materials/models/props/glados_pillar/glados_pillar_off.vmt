@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props/glados_pillar/glados_pillar_off"
+	"$surfaceprop"	"metal"
+	"$bumpmap"	"models/props/glados_pillar/glados_pillar_n"	
+
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"4"
+	"$phongexponenttexture"	"models/props/glados_pillar/glados_pillar_exp"
+	"$phongfresnelranges"	"[3 1.5 2]"
+
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_bts/glados_generator_sheet_01_light"
+    	"$selfillum" 1
+
+	
+}

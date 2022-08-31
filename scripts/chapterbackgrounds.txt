@@ -1,0 +1,16 @@
+"chapters"
+{
+	1	"background1_tale"
+	2	"background1_tale"
+	3	"background1_tale"
+	4	"background1_tale"
+	5	"background1_tale"
+	6	"background1_tale"
+	7	"background1_tale"
+	8	"background1_tale"
+	9	"background1_tale"
+	10	"background1_tale"
+	11	"background1_tale"
+	12	"background2_tale"
+	13	"background2_tale"
+}	

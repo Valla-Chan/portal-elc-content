@@ -1,0 +1,55 @@
+"GameInfo"
+{
+	game			"Portal: Every Last Crumb"
+	title 		""
+	gamelogo 1
+	type			singleplayer_only
+	
+	nodifficulty	1
+	hasportals		1
+	nocrosshair     1
+	nomodels        1
+
+	developer		"Allison Ghost"
+	developer_url	""
+	icon			"resource/icon"
+	
+	// Hammer settings (remove before release)
+	GameData        "FGDs/portal.fgd"
+    InstancePath "|gameinfo_path|.\maps\instances"
+
+	FileSystem
+	{
+		SteamAppId				243730
+		
+		SearchPaths
+		{
+			game+mod			|gameinfo_path|.
+			platform			|gameinfo_path|.
+
+			game                "../Portal/portal/portal_english.vpk"
+			game                "../Portal/portal/portal_pak.vpk"
+			game                "../Portal/portal"
+			game				"|all_source_engine_paths|../half-life 2/ep2/ep2_pak.vpk"
+			game				"|all_source_engine_paths|../half-life 2/episodic/ep1_pak.vpk"
+			game				|all_source_engine_paths|hl2/hl2_textures.vpk
+			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
+			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
+			game				|all_source_engine_paths|hl2/hl2_misc.vpk
+			platform			|all_source_engine_paths|platform/platform_misc.vpk
+
+			mod+mod_write+default_write_path	|gameinfo_path|.
+			game+game_write			|gameinfo_path|.
+
+			gamebin				|gameinfo_path|bin
+			
+			game				|all_source_engine_paths|portal
+			game				|all_source_engine_paths|hl2
+			platform			|all_source_engine_paths|platform
+			game				"|all_source_engine_paths|../half-life 2/hl2"
+			game				"|all_source_engine_paths|../half-life 2/ep2"
+			game				"|all_source_engine_paths|../half-life 2/episodic"
+			
+		}
+	}
+}

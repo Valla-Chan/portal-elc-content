@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/Weapons/w_bugbait/wbugbait_sheet"
+	"$selfillum" "1"
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar $basetextureTransform
+			texturescrollrate 0.1
+		}
+	}
+}

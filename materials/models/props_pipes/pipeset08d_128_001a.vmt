@@ -1,0 +1,8 @@
+
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_pipes/PipeSet08d_128_001a"
+	"$basealphaenvmapmask" "1" 
+	$envmap env_cubemap
+	$envmaptint "[0.3 0.3 0.3]"
+}

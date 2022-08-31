@@ -1,0 +1,22 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\props/light_rail_endcap_glass"
+	"$additive" 1
+	"$bumpmap" "models\flat_normal"
+	"$envmap" "env_cubemap"
+	$translucent 1
+	//"$basealphaenvmapmask" 1
+	"$surfaceprop" "Metal_Box"
+	"$envmaptint" "[ 0.2 0.3 0.5]"
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	
+	"$phongboost" "300"	
+	"$phongfresnelranges"	"[0.01 0.1 1]"
+	"$halflambert" "1"
+	
+
+
+
+}

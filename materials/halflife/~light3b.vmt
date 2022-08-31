@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "halflife/~light3b"
+	"$surfaceprop" "glass"
+	"%noportal" 1
+}

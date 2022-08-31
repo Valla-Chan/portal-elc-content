@@ -1,0 +1,31 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete\concrete_bts_floor002a"
+	"$surfaceprop" "concrete"
+	"%keywords" "portal"
+
+	"$bumpmap" "concrete/concrete_bts_floor002a_n"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .1 .1 .1 ]"
+
+	"LightmappedGeneric_HDR_DX9"
+	{
+
+        	"$detail" "detail\detail_concrete_02"
+		"$detailscale" "1.5"
+		"$detailblendfactor" .95
+		"$detailblendmode" 0
+	}
+
+	"LightmappedGeneric_DX9"
+	{
+
+        	"$detail" "detail\detail_concrete_02"
+		"$detailscale" "1.5"
+		"$detailblendfactor" .95
+		"$detailblendmode" 0
+	}
+}

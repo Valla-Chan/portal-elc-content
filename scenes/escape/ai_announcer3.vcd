@@ -1,0 +1,28 @@
+// Choreo version 1
+actor "Announcer_AI"
+{
+  channel "audio"
+  {
+    event speak "ai_announcer.countdown3"
+    {
+      time 0.000000 1.510998
+      param "ai_announcer.countdown3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+  }
+}
+
+mapname "maps\pee_epic_battle_cbt.bsp"
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "232"
+}
+fps 60
+snap off

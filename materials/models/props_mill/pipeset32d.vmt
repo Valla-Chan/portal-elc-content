@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_mill/PipeSet32d"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props_mill\PipeSet32d_ref"
+	"$envmaptint" "[.8 .8 .8]" 
+
+}

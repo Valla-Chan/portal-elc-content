@@ -1,0 +1,39 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props/computer_cabinet01/computer_cabinet01"
+	$selfillum 1
+	"$surfaceprop"	"metal"
+
+	"$bumpmap"	"dev/flat_normal"
+	//phong properties
+//	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponenttexture"	"models/props/computer_cabinet01/computer_cabinet01"
+	"$phongfresnelranges"	"[1 .8 .5]"
+
+"Proxies"
+{
+"Sine"
+{
+"sineperiod" "2.5"
+"sinemin" ".8"
+"sinemax" "1.2"
+"resultVar" "$selfillumtint[0]"
+}
+"Sine"
+{
+"sineperiod" "2.5"
+"sinemin" ".5"
+"sinemax" "1.2"
+"resultVar" "$selfillumtint[1]"
+}
+"Sine"
+{
+"sineperiod" "2.5"
+"sinemin" ".5"
+"sinemax" "1"
+"resultVar" "$selfillumtint[2]"
+}
+}
+
+}

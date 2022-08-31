@@ -1,0 +1,27 @@
+"Modulate"
+{
+	"$baseTexture" "models\props_bts/glados_ball_pupil"
+	//$basetexturetransform "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+	$mod2x  1
+	$model 1
+
+$center "0.5"
+$scale 1
+$rot "0.0"
+$trans "[0.00 0.00]"
+
+Proxies{
+MaterialModify
+{
+}
+TextureTransform{
+resultVar $basetexturetransform
+centerVar $center
+scaleVar $scale
+rotateVar $rot
+translateVar $trans
+}
+
+
+}
+}

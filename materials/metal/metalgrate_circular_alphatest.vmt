@@ -1,0 +1,19 @@
+LightMappedGeneric
+{
+$basetexture "metal/metalgrate_circular"
+$bumpmap "metal/metalgrate_circular_n"
+$surfaceprop metalgrate
+
+$envmaplightscale 1
+$envmap env_cubemap
+$envmaptint "[.4 .36 .31]"
+$normalmapalphaenvmapmask 1
+
+$alphatest 1
+"%noportal" 1
+"%nopaint" 1
+"%compilepassbullets" 1
+$AlphaTestReference "0.4"
+
+$color "[0.9 1 1]"
+}

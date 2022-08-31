@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\props/box_dropper_skin002"
+        "$selfillum" 1
+	$nocull 1
+}

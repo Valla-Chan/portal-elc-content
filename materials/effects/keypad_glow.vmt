@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	$basetexture "effects/keypad_glow"
+	$additive 1
+	$decal 1
+
+  "Proxies" 
+  { 
+   "ToggleTexture"
+   {
+    "toggleTextureVar" "$baseTexture"
+    "toggleTextureFrameNumVar" "$frame"
+    "toggleTextureShouldWrap" "0"
+   } 	
+  } 
+}

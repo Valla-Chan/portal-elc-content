@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\frame_plastic_border/frame_plastic_border"
+	"$surfaceprop" "metal"
+
+	"$detail" "detail\metal_detail_01"
+	"$detailscale" "4.283"
+	"$detailblendfactor" .3
+	"$detailblendmode" "0"
+
+
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	//"$envmapcontrast" 0.9
+	//"$envmapsaturation" 1
+	"$envmaptint" "[ 0.7 0.7 0.7 ]"
+}

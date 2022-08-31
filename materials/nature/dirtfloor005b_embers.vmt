@@ -1,0 +1,6 @@
+LightMappedGeneric
+{
+$selfillum 1
+$basetexture "nature/dirtfloor005b_embers"
+	$surfaceprop dirt
+}

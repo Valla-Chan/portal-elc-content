@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+	// Original shader: CubicEnvMapBlendMaskedBaseTimesLightmap
+	"$basetexture" "Metal/metalwall033a"
+	"$bumpmap" "Metal/metalwall_bts_006a_height-ssbump"
+	"$detail" "detail\metal_detail_01"
+	$ssbump 1
+	"%keywords" "portal"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ 0.4 0.4 0.4 ]"
+	"%noportal" 1
+	"$reflectivity" "[ .35 .30 .27 ]" //this is a artificial radiosity boost
+}

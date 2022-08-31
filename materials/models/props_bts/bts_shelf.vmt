@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_bts/bts_shelf"
+	"$surfaceprop"	"default"
+	"$model"	1
+}

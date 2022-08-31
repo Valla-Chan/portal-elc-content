@@ -1,0 +1,14 @@
+"UnlitTwoTexture"
+{
+	$basetexture "effects/glados_cleanser_bounds"
+	$texture2 "effects/glados_cleanser_detail"
+	$texture2transform "center .5 .5 scale 3 3 rotate 0 translate 0.5 0.5"
+	$additive 1
+	$nodecal 1
+	$color "[1 0.55 0]"
+
+  "Proxies" 
+  { 
+
+  } 
+}

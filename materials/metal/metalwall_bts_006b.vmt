@@ -1,0 +1,16 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"metal/metalwall_bts_006b"
+	$basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0.5 0.5"
+	"$bumpmap" "Metal/metalwall_bts_006b_height-ssbump"
+	$ssbump 1
+	"%keywords" "portal"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ 0.4 0.4 0.4 ]"
+	"%noportal" 1
+	"$reflectivity" "[ .35 .30 .27 ]" //this is a artificial radiosity boost
+}

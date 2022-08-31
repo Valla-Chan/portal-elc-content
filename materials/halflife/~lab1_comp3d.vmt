@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "halflife/~lab1_comp3d"
+	"$selfillum" 1
+	"$surfaceprop" "computer"
+	"%noportal" 1
+}

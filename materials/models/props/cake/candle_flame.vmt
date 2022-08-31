@@ -1,0 +1,105 @@
+"Unlitgeneric"
+{
+	"$basetexture" "models\props\cake\candle_flame"
+	$color "[3 3 3]"
+
+	$additive 1
+	$selfillum 1
+	$nofog 0
+	$nocull 1
+
+
+	$vertexfog 0
+
+	"$offset"	"0.0"
+	"$value1"	"0.0"
+	"$value2"	"0"
+	"$value3"	"0.0"
+	"$value4"	"0.0"
+
+	$windval1	0
+
+	$period 8.5
+	$addval 4
+	$period1 10
+	$period2 10
+
+	"Proxies"
+	{
+
+		EntityRandom
+		{
+			scale 8
+			resultVar $period1
+		}
+		EntityRandom
+		{
+			scale -0.15
+			resultVar $windval1
+		}
+
+		"Multiply"
+		{
+			"srcVar1"		"$period1"
+			"srcVar2"		"$period"
+			"resultVar"	"$period2"
+
+		}
+
+       		"Sine"
+        		{
+            		"sineperiod"	"$period2"	       
+		"sinemin"		"0.7"
+		"sinemax"	"1.05"
+            		"resultVar" 	"$value1"
+        		}
+
+       		"Sine"
+        		{
+            		//"sineperiod"	".81"	
+            		"sineperiod"	$period1	       
+		"sinemin"		"0.8"
+		"sinemax"	"1.07"
+            		"resultVar" 	"$value2"
+        		}
+
+       		"Sine"
+        		{
+            		"sineperiod"	".3"	       
+		"sinemin"		"0.81"
+		"sinemax"	"0.9"
+            		"resultVar" 	"$value3"
+        		}
+
+		"Multiply"
+		{
+			"srcVar1"		"$value1"
+			"srcVar2"		"$value2"
+			"resultVar"	"$value4"
+
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$value3"
+			"srcVar2"		"$value4"
+			"resultVar"	"$selfillumtint"
+
+		}
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 20.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$detailtexturetransform"
+			"texturescrollrate" $windval1
+			"texturescrollangle" 0
+		}
+
+	
+}
+}

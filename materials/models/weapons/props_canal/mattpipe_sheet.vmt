@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_canal/mattpipe_sheet"
+	"$bumpmap" "models/props_canal/mattpipe_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap"		"env_cubemap"
+	"$envmaptint"	"[ 0.2 0.2 0.2]"
+	"$detail"		"models/props_canal/Detail_Metal"
+	"$detailscale" 	"3"
+	
+}

@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"overlays/decal_metaldoor_bts"
+	"$surfaceprop"	"metal"
+	"$alphatest"	1
+	"$decal"	1
+	"%keywords" "portal"
+}

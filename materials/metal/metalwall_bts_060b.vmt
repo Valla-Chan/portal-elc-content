@@ -1,0 +1,23 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/metalwall060b"
+	$basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0.5 0.5"
+	$bumpmap "Metal/metalwall060b-ssbump"
+	$ssbump 1
+
+	"$surfaceprop" "metal"
+	"%keywords" "airexchange,combine,portal"
+	"%noportal" 1
+
+	"$detail" "detail\metal_detail_01"
+	"$detailscale" "4.283"
+	"$detailblendfactor" .3
+	"$detailblendmode" "0"
+
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 0
+	"$envmapsaturation" 1
+	"$envmaptint" "[ 0.03 0.03 0.03 ]"
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "halflife/c2a4_brd2b"
+	"$surfaceprop" "metal"
+	"%noportal" 1
+}

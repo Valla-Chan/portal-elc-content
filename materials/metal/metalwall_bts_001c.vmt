@@ -1,0 +1,15 @@
+// envmaptint_fix
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/metalwall_bts_001b"
+	"%keywords" "portal"
+	"$bumpmap" "Metal/metalwall_bts_001a_normal"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[ .3 .3 .3 ]"
+	"$envmapcontrast" 0.5
+	"$envmapsaturation" 1
+	"%noportal" 1
+	$color "[2 2 2]"
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	$basetexture "tools/toolsblockbullets"
+	$translucent 1
+	$nodecal 1
+	%compilenodraw 1
+	%compiledetail 1
+}

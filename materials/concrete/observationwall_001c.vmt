@@ -1,0 +1,52 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Concrete/observationwall_001c"
+	$basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0.5 0.5"
+	"$surfaceprop" "concrete"
+	"%keywords" "portal"
+
+        	"$detail" "detail\detail_concrete_01"
+		"$detailscale" "3"
+		"$detailblendfactor" .4
+		"$detailblendmode" 0
+
+	"LightmappedGeneric_HDR_DX9"
+	{
+		"$envmap" "env_cubemap"
+		"$normalmapalphaenvmapmask" 1
+		"$envmapcontrast" 1
+		"$envmapsaturation" 1
+		"$envmaptint" "[ .24 .24 .24 ]"
+
+
+		"$bumpmap" "concrete/observationwall_001c_height-ssbump"
+		"$ssbump" "1"
+
+		
+	}
+
+	"LightmappedGeneric_DX9"
+	{
+		"$envmap" "env_cubemap"
+		"$normalmapalphaenvmapmask" 1
+		"$envmapcontrast" 1
+		"$envmapsaturation" 1
+		"$envmaptint" "[ .40 .40 .40 ]"
+
+
+		"$bumpmap" "concrete/observationwall_001c_height-ssbump"
+		"$ssbump" "1"
+
+	}
+
+	"LightmappedGeneric_DX8"
+	{
+		"$basetexture" "Concrete/observationwall_001c"
+	}
+
+	"LightmappedGeneric_NoBump_DX8"
+	{
+		"$basetexture" "Concrete/observationwall_001c"
+	}
+
+}

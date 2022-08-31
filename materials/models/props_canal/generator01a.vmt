@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{	
+	"$basetexture" "Models/props_canal/generator01a"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .5 .5 .5 ]"
+}

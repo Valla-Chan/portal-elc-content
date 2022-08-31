@@ -1,0 +1,14 @@
+"patch"
+{
+	include "materials\models\weapons\v_models\v_portalgun/v_portalgun.vmt"
+
+	insert
+	{
+		$detail "models\weapons\v_models\v_portalgun/v_portalgun_light_blue"
+		$detailscale 1
+		$detailblendamount 0.7
+		$detailblendmode 5
+	}
+
+
+}

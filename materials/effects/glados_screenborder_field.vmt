@@ -1,0 +1,74 @@
+//"UnlitTwoTexture"
+//"UnlitGeneric"
+"VertexLitGeneric"
+{
+	$basetexture "effects/glados_screenborder_field_border_2"
+	$texture2 "effects/glados_cleanser_detail"
+	//$detail "effects/caustics001"
+$detailscale 0.4
+$detailblendfactor 0.1
+$detailblendmode 1
+	$texture2transform "center .5 .5 scale 3 3 rotate 0 translate 0.5 0.5"
+	$additive 1
+	$nodecal 1
+	$selfillum 1
+	$nocull 1
+	$color2 "[0.78 0.62 0]"
+
+
+
+// EMISSIVE SPARKS
+
+//	"$emissiveBlendEnabled"     "1" // Enables effect
+//	"$emissiveBlendTexture"     "models/vortigaunt/vortigaunt_illum"
+//	"$emissiveBlendBaseTexture" "Models/Vortigaunt/vortigaunt_blue"
+//	"$emissiveBlendFlowTexture" "models/vortigaunt/vortigaunt_flow"
+//	"$emissiveBlendTint"        "[1 1 1]"
+//	"$emissiveBlendScrollVector" "[0.11 0.124]"
+
+
+// FLESH
+	"$FleshInteriorEnabled"      "1" // Enables effect
+	"$fleshinteriortexture" "effects/glados_screenborder_field_border_glow"
+	$fleshsubsurfacetexture "vgui/white"
+	"$FleshNormalTexture" "effects/glados_screenborder_field_border_n"
+
+	$fleshcubetexture env_cubemap
+
+	$fleshbordersoftness 2
+	$fleshbordertexture1d "effects/orange1"
+	//$fleshbordertexture1d "halflife/c1a3yellow"
+	$fleshborderwidth 0.5
+
+
+	"$FleshInteriorNoiseTexture" "effects/glados_screenborder_field_border_n"
+	"$FleshBorderNoiseScale"     "1" // Flesh Noise UV scalar for border
+	"$FleshGlossBrightness"		 "1" // Change the brightness of the glossy layer
+	"$FleshDebugForceFleshOn"	 "0" // DEBUG: This will force on full flesh for testing
+	"$FleshScrollSpeed"			 "2"
+
+	"$time" "0.0"
+	"Proxies"
+	{
+		"AnimatedTexture" 
+		{ 
+		"animatedTextureVar" "$detail" 
+		"animatedTextureFrameNumVar" "$detailframe" 
+		"animatedTextureFrameRate" "20" 
+		}
+		//"VortEmissive"
+		//{
+		//}
+		"CurrentTime"
+		{
+			"resultVar" "$time"
+		}
+		"FleshInterior"
+		{
+		}
+		"MaterialModify"
+		{
+		}		
+	}
+
+}

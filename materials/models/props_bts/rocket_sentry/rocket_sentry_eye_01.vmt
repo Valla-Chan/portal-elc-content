@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_bts/Rocket_Sentry/rocket_sentry_eye_01"
+      	  "$selfillum" 1
+
+}

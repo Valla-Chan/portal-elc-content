@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props/lab_monitor/lab_monitor_off"
+	"$surfaceprop"	"metal"
+
+}

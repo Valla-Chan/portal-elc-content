@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Glass/refract01_dx8"
+	"$surfaceprop" "glass"
+	"%keywords" "portal"
+	$bumpmap "glass/glass_normal"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.20 .30 .35]"
+
+	"$additive" "1"
+	"$translucent" 1
+	"$nocull" "1"
+
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	$basetexture "tools/toolsvehicleclip"
+	$translucent 1
+	%compiletrigger 1
+}

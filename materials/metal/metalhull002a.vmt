@@ -1,0 +1,21 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Metal/metalhull002a"
+	"$bumpmap" "Metal/metalhull002a_n"
+
+	"$surfaceprop"  "metal"
+	"$detail" "detail\metal_detail_01"
+	"$detailscale" "4.283"
+	"$detailblendfactor" .65
+	"$detailblendmode" "0"
+	%noportal 1
+
+	"%keywords" "borealis"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 0.9
+	"$envmapsaturation" 1
+	"$envmaptint" "[ 0.02 0.02 0.02 ]"
+}

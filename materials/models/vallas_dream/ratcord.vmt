@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/vallas_dream/ratcord"
+$phong 1
+$phongexponent 25
+$phongboost 6
+$phongfresnelranges "[.3 .6 4]"
+$basemapalphaphongmask 1
+}

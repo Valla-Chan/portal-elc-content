@@ -1,0 +1,18 @@
+// envmaptint_fix
+"LightmappedGeneric"
+{
+	"$basetexture" "plastic/plastic_light002a"
+	"$surfaceprop" "Plastic_Box"
+	"%keywords" "portal"
+
+	// NOTE: Even though env_cubemap is here, it will turned off for DX6
+	// because $multipass 1 isn't defined
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .03 .03 .03 ]"
+	"$envmapcontrast" 0.5
+	"$envmapsaturation" 1
+
+		"$bumpmap" "plastic/plastic_light002a_n"
+		"$normalmapalphaenvmapmask" 1
+
+}

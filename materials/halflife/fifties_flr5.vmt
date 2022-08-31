@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "halflife/fifties_flr5"
+	"$surfaceprop" "tile"
+	"%noportal" 1
+}

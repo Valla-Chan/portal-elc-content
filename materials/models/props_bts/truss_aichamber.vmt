@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$basetexture "models/props_bts/truss_aichamber"
+$surfaceprop metal
+	"%keywords" "portal"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .03 .03 .03 ]"
+	"$envmapcontrast" 0.5
+	"$envmapsaturation" 1
+
+}

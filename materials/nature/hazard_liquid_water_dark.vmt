@@ -1,0 +1,66 @@
+"Water"
+{
+
+	"$selfillum" 1
+	"$surfaceprop" "slime"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .50 .45 .45 ]"
+	"$envmapcontrast" "1"
+
+	"%keywords" "portal"
+	"$abovewater" 1
+
+//todo: how to make the splash effect look like slime again?
+	"%compilewater" 1
+	//"%compileslime" 1
+	"$forceexpensive" 1
+	"$reflectentities" 1
+	
+	"$bottommaterial" "nature/hazard_liquid_beneath"
+	"%tooltexture" "nature/hazard_liquid"
+
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" "0.04"
+	"$refracttint" "[.72 .76 .3]"
+	"$refractblur" "1"
+
+	$normalstrength "0"
+
+	"$reflecttexture" "_rt_WaterReflection"
+	"$reflectamount" "0.01"
+	"$reflecttint" "[0.47 0.47 .35]"
+	
+	"$fogenable" 1
+	"$fogcolor" "{10 10 4}"
+	"$fogstart" 1.00
+	"$fogend" 130.00
+
+	//"$normalmap" "nature/hazard_water_normal"
+	"$normalmap" "nature/tfwater001_normal"
+
+	"Proxies"
+	{
+		 "AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 20.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .025
+			"texturescrollangle" -35.00
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .010
+			"texturescrollangle" -35.00
+		}
+	}
+}
+
+
+

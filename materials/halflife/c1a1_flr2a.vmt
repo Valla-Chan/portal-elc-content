@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "halflife/c1a1_flr2a"
+	"$surfaceprop" "tile"
+	"%noportal" 1
+}

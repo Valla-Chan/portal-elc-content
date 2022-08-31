@@ -1,0 +1,49 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Concrete/concrete_modular_floor001_button"
+	$basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0.5 0.5"
+	"$surfaceprop" "concrete"
+	"%keywords" "portal"
+
+
+	"LightmappedGeneric_HDR_DX9"
+	{
+		"$bumpmap" "concrete/concrete_modular_floor001_button_height-ssbump"
+		"$ssbump" "1"
+
+        	//"$detail" "detail\detail_concrete_02a"
+		//"$detailscale" "1.5"
+		//"$detailblendfactor" .6
+		//"$detailblendmode" 7
+
+		"$envmap" "env_cubemap"
+		"$normalmapalphaenvmapmask" 1
+		"$envmapcontrast" 1
+		"$envmapsaturation" 1
+		"$envmaptint" "[0.2 0.2 0.2]"
+	}
+
+	"LightmappedGeneric_DX9"
+	{
+		"$bumpmap" "concrete/concrete_modular_floor001_button_height-ssbump"
+		"$ssbump" "1"
+
+        	//"$detail" "detail\detail_concrete_02a"
+	//	"$detailscale" "1.5"
+	//	"$detailblendfactor" .6
+	//	"$detailblendmode" 7
+	}
+
+	"LightmappedGeneric_DX8"
+	{
+		"$bumpmap" "Concrete/concrete_modular_floor001a_normal"
+		"$nodiffusebumplighting" 1
+		"$normalmapalphaenvmapmask" 1
+	}
+
+	"LightmappedGeneric_NoBump_DX8"
+	{
+		"$basetexture" "Concrete/concrete_modular_floor001_button"
+		"$basealphaenvmapmask" 1
+	}
+}

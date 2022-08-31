@@ -1,0 +1,41 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props/Metal_box_skin001"
+	//"$baseTexture" "models\props/lift_platform"
+	$selfillummask "models\props/metal_box_emissive"
+
+	"$bumpmap" "models\props\Metal_box_normal"
+	"$phong" "1"
+	"$phongexponenttexture" "models\props\Metal_box_exponent"
+//	"$phongexponent" "25"
+	
+	"$phongboost" "3"	
+	//"$lightwarptexture" "models\props\Metal_box_lightwarp"
+	"$phongfresnelranges"	"[5 1 2]"
+//	"$halflambert" "1"
+
+//	"$envmap" "env_cubemap"
+//  "$normalmapalphaenvmapmask" 1
+
+$alphatest 1
+$alphatestreference 0.45
+
+ // "$selfillum" 1
+
+	$nocull 1
+	"$detail" "effects\mask_dissolve"
+	$detailframe 180
+	$detailscale 0.5
+	$detailblendmode 4
+	$detailblendfactor 1
+
+	"Proxies"
+	{
+		"AnimatedEntityTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 60.00
+		}
+	}
+}

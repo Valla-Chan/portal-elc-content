@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "particle/smokesprites0001"
+	$color2 "[0.2 0.2 0.2]"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	$Additive 1
+	$DEPTHBLEND 1
+	"$no_fullbright" 1
+}

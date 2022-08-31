@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props_bts\projector_off"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props_bts\projector_ref"
+}

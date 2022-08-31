@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+//	"$color"				"[1 1 1]"
+	"$baseTexture"			"models/props_foliage/ivy01"
+//	"$selfIllum"			0
+//	"$translucent"			1
+//	"$alpha"				1
+	"$nocull" 1
+	"$alphatest" "1"
+}

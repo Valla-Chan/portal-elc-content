@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_bts/bts_fan_rim"
+	   "$envmap" "env_cubemap"
+     	"$basealphaenvmapmask" 1 
+     	"$envmaptint" "[ .25 .25 .25]"
+	"%compilepassbullets" 1
+	"$surfaceprop" "metal"
+	$alphatest 1
+}

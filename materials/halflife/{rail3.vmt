@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"%compilepassbullets" 1
+	"$alphatest" 1
+	"$basetexture" "halflife/{rail3"
+	"$surfaceprop" "metal"
+	"%noportal" 1
+}

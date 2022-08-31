@@ -1,0 +1,20 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/metaldoor_white01b"
+	$basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0.5 0.5"
+	"$surfaceprop" "metal"
+	"$envmap"  "env_cubemap"
+	"$envmaptint" "[ .09 .09 .09 ]"
+	"%keywords" "portal"
+	"%noportal" 1
+
+
+	"$normalmapalphaenvmapmask" 1
+	//"$envmapcontrast" 1
+	//"$envmapsaturation" 1
+
+
+	"$bumpmap" "metal/metaldoor_white01b_ssbump"
+	"$ssbump" "1"
+
+}

@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+$basetexture "models/props_bts/pressure_door"
+$surfaceprop metal
+$envmap "environment maps/borealis_003"
+$basealphaenvmapmask 1
+$envmaptint "[0.2 0.3 0.33]"
+
+$envmapcontrast 1
+$envmapsaturation 0.1
+//$envmaplightscale 0.4
+
+//$phong 1
+//$basemapalphaphongmask 1
+//$basemapluminancephongmask 1
+//$phongfresnelranges		"[1 1 0]"
+//$phongboost 1
+//$phongexponent 1
+}

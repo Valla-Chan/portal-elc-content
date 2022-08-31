@@ -1,0 +1,22 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/metalfloor_bts_001a"
+	$basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0.5 0.5"
+	//"$bumpmap" "Metal/metalfloor_bts_001b_normal"
+
+	"$bumpmap" "metal/metalfloor_bts_001a_ssbump"
+	$ssbump 1
+
+
+	"$surfaceprop" "metal"
+	"%keywords" "portal"
+	//"$envmaptint" "[0.8 0.8 0.8]"
+	"$envmaptint" "[0.3 0.3 0.3]"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"%noportal" 1
+	"$reflectivity" "[.35 .30 .27 ]" //this is a artificial radiosity boost
+	
+}

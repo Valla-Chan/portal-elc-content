@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_pipes/pipe_8_misc"
+	"$surfaceprop" "metal"
+//	"$envmap" "env_cubemap"
+//	"$basealphaenvmapmask" 1
+}

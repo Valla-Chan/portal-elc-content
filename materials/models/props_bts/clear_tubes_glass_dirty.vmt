@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_bts/clear_tubes_glass_dirty"
+	"$translucent" 1
+	//"$nocull" "1"
+	$decal 1
+}

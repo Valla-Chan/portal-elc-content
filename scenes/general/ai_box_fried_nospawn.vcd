@@ -1,0 +1,47 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "ding_on"
+    {
+      time 0.000000 0.190000
+      param "Portal.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+    event speak "generic_crate_vaporized_in_emancipation_grid-1"
+    {
+      time 0.253000 4.868147
+      param "Portal.generic_crate_vaporized_in_emancipation_grid-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+    event speak "ding_off"
+    {
+      time 4.953334 5.143334
+      param "Portal.ding_off"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+  }
+}
+
+mapname "maps\testchmb_a_00.bsp"
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

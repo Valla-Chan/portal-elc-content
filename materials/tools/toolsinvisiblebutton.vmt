@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	$basetexture "tools/toolsinvisiblebutton"
+	$translucent 1
+	%compilenonsolid 1
+	%compileinvisible 1
+	%compiledetail 1
+}

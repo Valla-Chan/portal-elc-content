@@ -1,0 +1,33 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Concrete/concretewall001b_grass_top"
+	"$surfaceprop" "concrete"
+	"%keywords" "portal"
+
+
+	"LightmappedGeneric_HDR_DX9"
+	{
+		"$bumpmap" "concrete/concrete_modular_wall001b_grass_height-ssbump"
+		"$ssbump" "1"
+
+	}
+
+	"LightmappedGeneric_DX9"
+	{
+		"$bumpmap" "concrete/concrete_modular_wall001b_grass_height-ssbump"
+		"$ssbump" "1"
+
+	}
+
+	"LightmappedGeneric_DX8"
+	{
+		"$bumpmap" "concrete/concrete_modular_wall001a_normal"
+		"$nodiffusebumplighting" 1
+	}
+
+	"LightmappedGeneric_NoBump_DX8"
+	{
+		"$basetexture" "Concrete/concretewall001b_grass_top"
+		"$basealphaenvmapmask" 1
+	}
+}

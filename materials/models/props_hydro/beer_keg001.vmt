@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_hydro/beer_keg001"
+	"$bumpmap"		"models/props_hydro/beer_keg001_normal"
+	"%keywords"		"portal,prelude"
+}

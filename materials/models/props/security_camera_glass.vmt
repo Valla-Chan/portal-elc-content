@@ -1,0 +1,21 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\props/security_camera_glass"
+	"$bumpmap" "models\props/security_camera_glass_n"
+	"$envmap" "env_cubemap"
+	$translucent 1
+	//"$basealphaenvmapmask" 1
+	"$surfaceprop" "Metal_Box"
+	"$envmaptint" "[ 0.11 0.18 0.2]"
+
+	$invertphongmask 1
+	"$phong" "1"
+	$basemapluminancephongmask 1
+	"$phongexponent" "18"
+	
+	"$phongboost" "1000"	
+	"$phongfresnelranges"	"[0.01 0.1 1]"
+	"$halflambert" "1"
+
+
+}

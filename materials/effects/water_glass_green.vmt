@@ -1,0 +1,29 @@
+"Refract"
+{
+
+	"$refractamount" ".06"
+	"$REFRACTTINT" "{180 200 160}"
+	"$bluramount" "1"
+
+
+	"$scale" "[0.2 0.2]"
+
+	"$bumpmap" "nature/water_coast01_dudv"
+	"$normalmap" "nature/water_coast01_normal"
+
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" "1"
+	"$envmapsaturation" "[1 1 1]"
+	"$envmaptint" "[.71 .79 .6]"
+	
+	"$bumpframe" "0"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .1
+			"texturescrollangle" 45.00
+		}
+	}
+}

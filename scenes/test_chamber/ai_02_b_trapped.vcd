@@ -1,0 +1,29 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "02_part2_trapped-1"
+    {
+      time 0.023238 3.256322
+      param "Portal.02_part2_trapped-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+  }
+}
+
+mapname "maps\testchmb_a_02.bsp"
+scalesettings
+{
+  "CChoreoView" "112"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_bts/metal_block"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.1 0.1 0.1]"
+	"$envmapcontrast" "1.0"
+	$bumpmap "models\props_bts/metal_block_n"
+	//"$basealphaenvmapmask" 1
+	"$normalmapalphaenvmapmask" 1
+
+	"$phong" "1"
+	
+	"$phongboost" "1"	
+//	"$lightwarptexture" "models\props\Metal_box_lightwarp"
+	"$phongfresnelranges"	"[5 1 2]"
+
+
+
+}

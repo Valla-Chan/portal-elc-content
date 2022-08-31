@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_bts/glados_body"
+	"envmap" "env_cubemap"
+	"$surfaceprop"	"metal"
+	"$bumpmap"	"models/props_bts/glados_body_normal"
+        "$selfillum" 1
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"3"
+	"$phongexponenttexture"	"models/props_bts/glados_body_exponent"
+	"$phongfresnelranges"	"[1 1.5 2]"
+
+
+        "$selfillumtint" 1
+
+Proxies
+{
+	MaterialModify
+	{
+	}
+}
+
+}

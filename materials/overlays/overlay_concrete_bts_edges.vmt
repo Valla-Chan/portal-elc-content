@@ -1,0 +1,5 @@
+DecalModulate
+{
+$basetexture "overlays/overlay_concrete_bts_edges"
+"%keywords" "portal bts"
+}

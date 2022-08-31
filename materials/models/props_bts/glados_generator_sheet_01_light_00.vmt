@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_bts/glados_generator_sheet_01_light_00"
+    	"$selfillum" 1
+
+	$selfillumtint "[1 0.6 0]"
+	
+Proxies
+{
+		"AnimatedTexture" 
+		{ 
+			"animatedTextureVar" "$basetexture" 
+			"animatedTextureFrameNumVar" "$frame" 
+			"animatedTextureFrameRate" "1.7" 
+		}
+}
+}

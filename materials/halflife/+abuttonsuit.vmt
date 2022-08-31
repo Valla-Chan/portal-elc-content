@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "halflife/+abuttonsuit"
+	"$selfillum" 1
+	"$surfaceprop" "computer"
+	"%noportal" 1
+	"Proxies"
+	{
+		"ToggleTexture"
+		{
+			"toggletexturevar" "$basetexture"
+			"toggletextureframenumvar" "$frame"
+		}
+	}
+}

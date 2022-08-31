@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_pipes/pipecluster08d_003a"
+//	"$envmap" "env_cubemap"
+//	"$envmapmask" "models\props_pipes\PipeSet32d_ref"
+	"$bumpmap" "effects/flat_normal" 
+//	"$basemapalphaphongmask" "1" 
+	"$halflambert" "1"
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongexponent" "10" 
+	"$BASEMAPLUMINANCEPHONGMASK" "1"
+	"$phongfresnelranges" "[3 8 60]"
+//	"$rimlight" "1"
+//	"$rimlightboost" "1"
+}

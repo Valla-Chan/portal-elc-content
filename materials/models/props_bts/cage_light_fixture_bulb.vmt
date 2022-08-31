@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_bts/cage_light_fixture_bulb.vtf"
+$selfillum 1
+$model 1
+//$additive 1
+
+
+}

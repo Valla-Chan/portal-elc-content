@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props/Projector_off"
+
+	"$bumpmap" "models\props\Projector_n"
+	"$phong" "1"
+	"$phongexponenttexture" "models\props\Projector"
+//	"$phongexponent" "25"
+	
+	"$phongboost" "3"	
+	"$phongfresnelranges"	"[5 1 2]"
+
+//	"$envmap" "env_cubemap"
+//  "$normalmapalphaenvmapmask" 1
+
+}

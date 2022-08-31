@@ -1,0 +1,13 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "speech"
+  {
+    event interrupt "i5"
+    {
+      time 100.458336 101.250000
+      param ""
+    }
+  }
+}
+

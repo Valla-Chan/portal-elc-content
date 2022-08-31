@@ -1,0 +1,38 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "Tile/observation_tilestair001a"
+	$basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0.5 0.5"
+	"$surfaceprop" "tile"
+	"%keywords" "portal"
+	%noportal 1
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .15 .15 .15 ]"
+
+	"LightmappedGeneric_HDR_DX9"
+	{
+		"$bumpmap" "tile/observation_tilestair001a_normal"
+		"$ssbump" "0"
+	}
+
+	"LightmappedGeneric_DX9"
+	{
+		"$bumpmap" "tile/observation_tilestair001a_normal"
+		"$ssbump" "0"
+	}
+
+	"LightmappedGeneric_DX8"
+	{
+		"$bumpmap" "tile/observation_tilestair001a_normal"
+		"$nodiffusebumplighting" 1
+	}
+
+	"LightmappedGeneric_NoBump_DX8"
+	{
+		"$basetexture" "tile/observation_tilestair001a"
+		"$basealphaenvmapmask" 1
+	}
+}

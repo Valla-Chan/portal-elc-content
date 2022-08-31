@@ -1,0 +1,65 @@
+"TFV.track1"			// 1min32sec
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.00000"
+	"pitch"			"100"
+
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"			"*#music/tfv1.mp3"
+}
+
+"TFV.track2"			// 1min32sec
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.00000"
+	"pitch"			"100"
+
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"			"*#music/tfv2.mp3"
+}
+
+"TFV.track3"			// 1min54sec
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.00000"
+	"pitch"			"100"
+
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"			"*#music/tfv3.mp3"
+}
+
+"TFV.track1_short"			// 46sec
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.00000"
+	"pitch"			"100"
+
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"			"*#music/tfv1_short.mp3"
+}
+
+"TFV.track2_short"			// 46sec
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.00000"
+	"pitch"			"100"
+
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"			"*#music/tfv2_short.mp3"
+}
+
+"TFV.track3_short"			// 57sec
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.00000"
+	"pitch"			"100"
+
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"			"*#music/tfv3_short.mp3"
+}

@@ -1,0 +1,22 @@
+//"unLitGeneric"
+"UnlitTwoTexture"
+{
+	"$baseTexture" "models\props/cleanser_glow"
+//	"$Texture2" "Models/props_combine/combine_fenceglow2"
+	"$Texture2" "models\props/cleanser_fenceglow2"
+	$color2 "[0.34 0.34 0.35]"
+	$additive 1
+	$nocull 1
+	"$nodecal" "1"
+	"$model" "1"
+
+"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" -0.7
+			"texturescrollangle" 0
+		}
+}
+}

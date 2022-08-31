@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_bts/Glados_bunker"
+	"$envmap" "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	"$envmaptint"	"[0.05 0.05 0.05]"
+	"$surfaceprop"	"metal"
+	"$bumpmap"	"models/props_bts/Glados_bunker_normal"
+
+	$color2 "[3 3 3]"
+
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponenttexture"	"models/props_bts/Glados_bunker_exponent"
+	"$phongfresnelranges"	"[1 1.5 2]"
+
+}

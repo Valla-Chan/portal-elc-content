@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$basetexture" "effects/comball/comball"
+	"$additive" 1
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$surfaceprop" "energyball"
+	"$color" "[1.2 1.2 1]"
+	"Proxies"
+		{
+			"AnimatedOffsetTexture"
+			{
+				"animatedtexturevar" "$basetexture"
+				"animatedtextureframenumvar" "$frame"
+				"animatedtextureframerate" 50.00
+			}
+		}
+}

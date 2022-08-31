@@ -1,0 +1,10 @@
+"lightmappedgeneric"
+{
+	"$basetexture"	"nature/escape_vista_01"
+	"$surfaceprop"	"no_decal"
+	"$translucent"	1
+	$basetexturetransform "center .5 .5 scale 4 4 rotate 0 translate 0.5 0.5"
+//	"$nofog" 1
+//	$ignorez 1
+
+}

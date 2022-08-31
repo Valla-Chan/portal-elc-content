@@ -1,0 +1,899 @@
+//
+//
+// NOTE:  AUTOMATICALLY GENERATED FILE, ANY HAND EDITED COMMENTS WILL BE LOST!!!
+// NOTE:  AUTOMATICALLY GENERATED FILE, ANY HAND EDITED COMMENTS WILL BE LOST!!!
+// NOTE:  AUTOMATICALLY GENERATED FILE, ANY HAND EDITED COMMENTS WILL BE LOST!!!
+//
+// VOL_NORM		1.0f
+//
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+//
+// DON'T USE THESE - USE SNDLVL_ INSTEAD!!!
+//	ATTN_NONE		0.0f	
+//	ATTN_NORM		0.8f
+//	ATTN_IDLE		2.0f
+//	ATTN_STATIC		1.25f 
+//	ATTN_RICOCHET	1.5f
+//	ATTN_GUNFIRE	0.27f
+//
+//	SNDLVL_NONE		= 0,
+//	SNDLVL_25dB		= 25,
+//	SNDLVL_30dB		= 30,
+//	SNDLVL_35dB		= 35,
+//	SNDLVL_40dB		= 40,
+//	SNDLVL_45dB		= 45,
+//	SNDLVL_50dB		= 50,	= 3.9
+//	SNDLVL_55dB		= 55,	= 3.0
+//	SNDLVL_IDLE		= 60,	= 2.0
+//	SNDLVL_TALKING		= 60,	= 2.0
+//	SNDLVL_60dB		= 60,	= 2.0
+//	SNDLVL_65dB		= 65,	= 1.5
+//	SNDLVL_STATIC		= 66,	= 1.25
+//	SNDLVL_70dB		= 70,	= 1.0
+//	SNDLVL_NORM		= 75,
+//	SNDLVL_75dB		= 75,	= 0.8
+//	SNDLVL_80dB		= 80,	= 0.7
+//	SNDLVL_85dB		= 85,	= 0.6
+//	SNDLVL_90dB		= 90,	= 0.5
+//	SNDLVL_95dB		= 95,
+//	SNDLVL_100dB	= 100,	= 0.4
+//	SNDLVL_105dB	= 105,
+//	SNDLVL_120dB	= 120,
+//	SNDLVL_130dB	= 130,
+//	SNDLVL_GUNFIRE	= 140, = 0.27
+//	SNDLVL_140dB	= 140,	= 0.2
+//	SNDLVL_150dB	= 150,	= 0.2
+//
+
+
+
+"d3_citadel.digger_hit1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000000"
+	"pitch"			"80,120"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"ambient/machines/floodgate_stop1.wav"
+}
+
+"d3_citadel.digger_move1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"80,120"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"ambient/machines/wall_move4.wav"
+}
+
+"d3_citadel.digger_stop1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.750000"
+	"pitch"			"70,80"
+
+	"soundlevel"	"SNDLVL_100dB"
+
+	"wave"			"plats/hall_elev_stop.wav"
+}
+
+"d3_citadel.zapper_warmup"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100dB"
+
+	"wave"			"npc/vort/attack_shoot.wav"
+}
+
+"d3_citadel.zapper"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"ambient/machines/machine_whine1.wav"
+}
+
+"d3_citadel.zapper_loop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100dB"
+
+	"wave"			"ambient/machines/machine_whine1.wav"
+}
+
+"d3_citadel.stinger"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.700000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_140dB"
+
+	"wave"			"music/stingers/industrial_suspense1.wav"
+}
+
+"d3_citadel.stinger2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.700000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_140dB"
+
+	"wave"			"music/stingers/industrial_suspense2.wav"
+}
+
+"d3_citadel.elevator_rings"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.00000"
+	"pitch"			"115"
+
+	"soundlevel"	"SNDLVL_140dB"
+
+	"wave"			"plats/platform_citadel_ring.wav"
+}
+
+"d3_citadel.elevator_rings_locked"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.850000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100dB"
+
+	"wave"			"doors/garage_stop1.wav"
+}
+
+"d3_citadel.elevator_alarm"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.500000"
+	"pitch"			"150"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"ambient/alarms/citadel_alert_loop2.wav"
+}
+
+"d3_citadel.small_elevator_start"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.750000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_110dB"
+
+	"wave"			"plats/elevator_start1.wav"
+}
+
+"d3_citadel.small_elevator_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.850000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_110dB"
+
+	"wave"			"plats/elevator_stop2.wav"
+}
+
+"d3_citadel.small_elevator_move"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.70000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100dB"
+
+	"wave"			"plats/elevator_move_loop1.wav"
+}
+
+"d3_citadel.shield_loop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"wave"			"ambient/machines/combine_shield_loop3.wav"
+}
+
+"d3_citadel.shield_touch_loop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"wave"			"ambient/machines/combine_shield_touch_loop1.wav"
+}
+
+"d3_citadel.razortrain_wheels_loop_wheels"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_100dB"
+
+	"wave"			"ambient/machines/razor_train_wheels_loop1.wav"
+}
+
+"d3_citadel.razortrain_wheels_loop_freight"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"ambient/machines/train_freight_loop1.wav"
+}
+
+"d3_citadel.razortrain_horn"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_130dB"
+
+	"wave"			"ambient/alarms/razortrain_horn1.wav"
+}
+
+"d3_citadel.breenlift1_move"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.550000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_60dB"
+
+	"wave"			"doors/doormove1.wav"
+}
+
+"d3_citadel.breenlift1_stop"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.500000"
+	"pitch"			"90,110"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"wave"			"doors/garage_stop1.wav"
+}
+
+"d3_citadel.guards_bangdoor"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.4,0.8"
+	"pitch"			"75,110"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"rndwave"
+	{
+		"wave"	"physics/metal/metal_barrel_impact_hard5.wav"
+		"wave"	"physics/metal/metal_barrel_impact_hard6.wav"
+	}
+}
+
+"d3_citadel.guards_talk"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8,1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"
+	{
+		"wave"	"npc/combine_soldier/vo/gridsundown46.wav"
+		"wave"	"npc/combine_soldier/vo/isfieldpromoted.wav"
+		"wave"	"npc/combine_soldier/vo/overwatchrequestreinforcement.wav"
+		"wave"	"npc/combine_soldier/vo/sectionlockupdash4.wav"
+	}
+}
+
+"d3_citadel.pod_close"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.60000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"ambient/levels/citadel/pod_close1.wav"
+}
+
+"d3_citadel.pod_open"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.60000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"ambient/levels/citadel/pod_open1.wav"
+}
+
+"d3_citadel.pod_move"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.500000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"plats/skylift_move.wav"
+}
+
+"d3_citadel.pod_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.500000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"plats/skylift_stop.wav"
+}
+
+"d3_citadel.playerpod_move"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.500000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"plats/skylift_move.wav"
+}
+
+"d3_citadel.playerpod_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.500000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"plats/skylift_stop.wav"
+}
+
+"d3_citadel.portal_shoot_beam1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"90,120"
+
+	"soundlevel"	"SNDLVL_140dB"
+
+	"wave"			"ambient/levels/citadel/portal_beam_shoot6.wav"
+}
+
+"d3_citadel.portal_shoot_beam2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"90,120"
+
+	"soundlevel"	"SNDLVL_140dB"
+
+	"wave"			"ambient/levels/citadel/portal_beam_shoot5.wav"
+}
+
+"d3_citadel.portal_shoot_beam3"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"90,120"
+
+	"soundlevel"	"SNDLVL_140dB"
+
+	"wave"			"ambient/levels/citadel/portal_beam_shoot3.wav"
+}
+
+"d3_citadel.portal_shoot_beam4"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"90,120"
+
+	"soundlevel"	"SNDLVL_140dB"
+
+	"wave"			"ambient/levels/citadel/portal_beam_shoot2.wav"
+}
+
+"d3_citadel.portal_shoot_beam_random"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"90,120"
+
+	"soundlevel"	"SNDLVL_140dB"
+
+	"rndwave"
+	{
+		"wave"	"ambient/levels/citadel/portal_beam_shoot1.wav"
+		"wave"	"ambient/levels/citadel/portal_beam_shoot2.wav"
+		"wave"	"ambient/levels/citadel/portal_beam_shoot3.wav"
+		"wave"	"ambient/levels/citadel/portal_beam_shoot4.wav"
+		"wave"	"ambient/levels/citadel/portal_beam_shoot5.wav"
+		"wave"	"ambient/levels/citadel/portal_beam_shoot6.wav"
+	}
+}
+
+"d3_citadel.portal_open_rift"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000000"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+	"wave"			"ambient/levels/citadel/portal_open1_adpcm.wav"
+}
+
+"d3_citadel.portal_mainskybeam_active"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.700000"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+	"wave"			"ambient/levels/citadel/teleport_beam_active_loop1.wav"
+}
+
+"d3_citadel.portal_windup_loop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.500000"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+	"wave"			"ambient/levels/citadel/teleport_windup_loop1.wav"
+}
+
+"d3_citadel.combine_ball_field_loop1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.700000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"ambient/levels/citadel/field_loop1.wav"
+}
+
+"d3_citadel.combine_ball_field_loop2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.500000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"ambient/levels/citadel/field_loop2.wav"
+}
+
+"d3_citadel.combine_ball_field_loop3"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.500000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"ambient/levels/citadel/field_loop3.wav"
+}
+
+"d3_citadel.weapon_zapper_charge_node"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"rndwave"
+	{
+		"wave"	"ambient/levels/citadel/zapper_warmup1.wav"
+		"wave"	"ambient/levels/citadel/zapper_warmup4.wav"
+	}
+}
+
+"d3_citadel.timestop_winddown"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"0"
+
+	"wave"			"ambient/levels/labs/teleport_postblast_winddown1.wav"
+}
+
+"d3_citadel.timestop_explosion"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*ambient/explosions/citadel_end_explosion1.wav"
+}
+
+"d3_citadel.timestop_explosion_2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000000"
+	"pitch"			"80"
+
+	"soundlevel"	"SNDLVL_140dB"
+
+	"wave"			"*ambient/explosions/citadel_end_explosion2.wav"
+}
+
+"d3_citadel.timestop_explosion_3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000000"
+	"pitch"			"50"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"ambient/explosions/explode_3.wav"
+}
+
+"d3_citadel.timestop_buildup"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.900000"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+	"wave"			"ambient/levels/labs/teleport_mechanism_windup5.wav"
+}
+
+"d3_citadel.timestop_buildup2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.900000"
+	"pitch"			"180"
+
+	"soundlevel"	"0"
+
+	"wave"			"hl1/ambience/port_suckout1.wav"
+}
+
+"d3_citadel.timestop_gman_flash"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.600000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"0"
+
+	"wave"			"ambient/energy/whiteflash.wav"
+}
+
+"d3_citadel.timestop_gman_flash_2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.600000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"0"
+
+	"wave"			"ambient/machines/teleport3.wav"
+}
+
+"d3_citadel.timestop_gman_voices_1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.800000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"0"
+
+	"wave"			"ambient/levels/labs/teleport_weird_voices1.wav"
+}
+
+"d3_citadel.timestop_gman_voices_2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.800000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"0"
+
+	"wave"			"ambient/levels/labs/teleport_weird_voices2.wav"
+}
+
+"d3_citadel.timestop_pullaway"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.500000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"0"
+
+	"wave"			"ambient/levels/labs/teleport_mechanism_windup1.wav"
+}
+
+"d3_citadel.weapon_zapper_beam_loop1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100dB"
+
+	"wave"			"ambient/levels/citadel/zapper_loop1.wav"
+}
+
+"d3_citadel.weapon_zapper_beam_loop2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100dB"
+
+	"wave"			"ambient/levels/citadel/zapper_loop2.wav"
+}
+
+"d3_citadel.weapon_zapper_ambient_loop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.350000"
+	"pitch"			"110"
+
+	"soundlevel"	"SNDLVL_100dB"
+
+	"wave"			"ambient/levels/citadel/zapper_ambient_loop1.wav"
+}
+
+"d3_citadel.weapon_zapper_start"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.450000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100dB"
+
+	"wave"			"ambient/levels/citadel/weaponstrip1_adpcm.wav"
+}
+
+"d3_citadel.stalker_shriek1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.700000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_140dB"
+
+	"wave"			"npc/stalker/go_alert2.wav"
+}
+
+"d3_citadel.stalker_shriek2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.700000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_140dB"
+
+	"wave"			"npc/stalker/go_alert2a.wav"
+}
+
+"d3_citadel.stalker_breathing"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.700000"
+	"pitch"			"50, 150"
+
+	"soundlevel"	"SNDLVL_140dB"
+
+	"wave"			"npc/stalker/breathing3.wav"
+}
+
+
+"d3_citadel.podarm_move_start"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.15, 0.25"
+	"pitch"			"75, 85"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"vehicles/tank_turret_start1.wav"
+}
+
+"d3_citadel.podarm_move"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.15, 0.25"
+	"pitch"			"75, 85"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"vehicles/tank_turret_loop1.wav"
+}
+
+"d3_citadel.podarm_move_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.15, 0.25"
+	"pitch"			"80, 100"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"plats/elevator_stop1.wav"
+}
+
+"d3_citadel.podarm_snag"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.100000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"physics/metal/metal_sheet_impact_soft2.wav"
+}
+
+"d3_citadel.podarm_rotate"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.05, 0.08"
+	"pitch"			"112, 124"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"wave"			"vehicles/digger_grinder_loop1.wav"
+}
+
+"d3_citadel.podarm_shake"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"vehicles/v8/vehicle_impact_medium3.wav"
+}
+
+"d3_breen.digger_start1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.750000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"plats/elevator_large_start1.wav"
+}
+
+"d3_breen.digger_move1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.750000"
+	"pitch"			"80,120"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"ambient/machines/wall_move4.wav"
+}
+
+"d3_breen.digger_stop1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.750000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"plats/elevator_large_stop1.wav"
+}
+
+"d3_breen.core_elevator_stop1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.750000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"plats/railstop1.wav"
+}
+
+"d3_breen.core_elevator_move1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.750000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"plats/talkmove2.wav"
+}
+
+"d3_breen.core_shields_move1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"plats/elevmove1.wav"
+}
+
+"d3_breen.core_shields_start1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"plats/crane/vertical_start.wav"
+}
+
+"d3_breen.core_breen_elev_beam"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"ambient/machines/machine6.wav"
+}
+
+"d3_breen.core_rift_wind1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vehicles/fast_windloop1.wav"
+}
+
+"d3_breen.core_rift_rumble1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.800000"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"ambient/atmosphere/city_rumble_loop1.wav"
+}
+

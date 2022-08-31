@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props/cake/cake"
+	"$surfaceprop"	"metal"
+	"$bumpmap"	"models/props/cake/cake_n"
+
+	$selfillum 1
+	$selfillumtint "[6 5 3]"
+
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"5"
+	"$phongexponenttexture"	"models/props/cake/cake_exp"
+	"$phongfresnelranges"	"[1 1.5 2]"
+
+	
+}

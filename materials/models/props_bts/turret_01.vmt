@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_bts/glados_ball_interior"
+ 	 "$selfillum" 1
+}

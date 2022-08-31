@@ -1,0 +1,13 @@
+"Lightmappedgeneric"
+{
+$selfillum 1
+//"$basetexture2" "nature/dirtfloor005b"
+$basetexture "nature/dirtfloor005b_embers"
+
+	$surfaceprop dirt
+	$surfaceprop2 dirt
+$detail "nature/dirtfloor005b_embers_overlay"
+$detailscale 0.5
+$detailblendmode 1
+$detailblendfactor 0.4
+}

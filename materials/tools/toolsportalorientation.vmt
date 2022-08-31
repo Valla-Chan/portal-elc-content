@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	$basetexture "tools/toolsportalorientation"
+	$translucent 1
+	%compiletrigger 1
+}

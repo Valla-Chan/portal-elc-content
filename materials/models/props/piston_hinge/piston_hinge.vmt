@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/piston_hinge/piston_hinge"
+
+
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	//"$envmapcontrast" 0.9
+	//"$envmapsaturation" 1
+	"$envmaptint" "[ 0.1 0.1 0.1 ]"
+
+}

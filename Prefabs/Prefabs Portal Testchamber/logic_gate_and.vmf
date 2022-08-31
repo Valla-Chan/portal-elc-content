@@ -1,0 +1,139 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9238"
+	"mapversion" "4"
+	"formatversion" "100"
+	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "79"
+	"mapversion" "4"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "80"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "and_gate_input_on&i"
+	connections
+	{
+		"OnTrigger" "and_gate_counter&i,Add,1,0,-1"
+	}
+	"origin" "-16 -16 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "82"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "and_gate_input_off&i"
+	connections
+	{
+		"OnTrigger" "and_gate_counter&i,Subtract,1,0,-1"
+		"OnTrigger" "and_gate_state&i,Test,,0,-1"
+	}
+	"origin" "16 -16 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "84"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "and_gate_output_off&i"
+	"origin" "16 16 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "86"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "and_gate_output_on&i"
+	"origin" "-16 16 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "88"
+	"classname" "math_counter"
+	"max" "2"
+	"min" "0"
+	"StartDisabled" "0"
+	"startvalue" "0"
+	"targetname" "and_gate_counter&i"
+	connections
+	{
+		"OnHitMax" "and_gate_output_on&i,Trigger,,0,-1"
+		"OnHitMax" "and_gate_state&i,SetValue,1,0,-1"
+	}
+	"origin" "-8 0 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "101"
+	"classname" "logic_branch"
+	"InitialValue" "0"
+	"targetname" "and_gate_state&i"
+	connections
+	{
+		"OnTrue" "and_gate_output_off&i,Trigger,,0,-1"
+		"OnTrue" "!self,SetValue,0,0,-1"
+	}
+	"origin" "8 0 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Keeps track of the state of this AND gate. Enabled is 1, disabled is 0. Used to make sure the and_gate_output_off relay is only triggered when the state switches from 1 to 0."
+		"logicalpos" "[0 0]"
+	}
+}

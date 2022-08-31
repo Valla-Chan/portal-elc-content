@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/bts_metalrail013a"
+	$alphatest 1
+	$allowalphatocoverage 1
+	$nocull 1
+	"%keywords" "portal"
+	"%noportal" 1
+}

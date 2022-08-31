@@ -1,0 +1,51 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/c_arms_citizen/c_arms_citizen_sleeves"
+	"$bumpmap"     "models/weapons/c_arms_citizen/c_arms_citizen_sleeves_normal"
+	"$alphatest" "1"
+
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "4"		
+	"$phongfresnelranges"	"[0.2 0.5 0.7]"
+	
+	"$rimlight" "1"
+	"$rimlightboost" "1"
+	"$rimlightexponent" "6"
+	
+	"$phongexponenttexture" "models/weapons/c_arms_citizen/c_arms_citizen_sleeves_normal"
+	"$rimmask" "1"
+	
+	// Tinting
+	$ambientocclusion 0 
+	//"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"
+	
+	"$color2" "{255 124 28}" 
+
+	
+	// $FixPhongTint "{0.0001 0.0001 0.0001}"
+	
+	Proxies
+	{
+		//PlayerColor
+		//{
+		//	resultVar	$color2
+		//	default		0.2 0.4 0.7
+		//}
+		Clamp
+		{
+			min 0.2
+			max 0.5
+			srcVar1 "$color2"
+			resultVar "$phongtint"
+		}
+		Clamp
+		{
+			min 0.01
+			max 1.50
+			srcVar1 "$color2"
+			resultVar "$color2"
+		}
+	}
+}

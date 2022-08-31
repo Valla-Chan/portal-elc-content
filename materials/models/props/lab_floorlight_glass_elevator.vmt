@@ -1,0 +1,16 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "models\props_bts/Lab_floorlight_glass"
+	//"$translucent" "1"
+	"$additive" "1"
+	"envmap" "env_cubemap"
+	"%noportal" 1
+	$color2 "[1 1.6 1.5]"
+
+
+
+
+
+
+
+}

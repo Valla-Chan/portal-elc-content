@@ -1,0 +1,7 @@
+"UnLitGeneric"
+{
+	$basetexture "models/elegiac/fx/green"
+	$nocull 1
+	$additive 1
+	$translucent 1
+}

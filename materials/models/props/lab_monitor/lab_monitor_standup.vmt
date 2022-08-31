@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props\lab_monitor/lab_monitor_stand"
+	"$surfaceprop"	"plastic"
+	"$bumpmap"	"models/props\lab_monitor/lab_monitor_stand_n"
+	
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[1 1.5 2]"
+}

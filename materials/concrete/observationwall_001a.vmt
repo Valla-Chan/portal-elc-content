@@ -1,0 +1,39 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Concrete/observationwall_001a"
+	$basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0.5 0.5"
+	"$surfaceprop" "concrete"
+	"%keywords" "portal"
+
+        	"$detail" "detail\detail_cracks_01a"
+		"$detailscale" "0.42"
+		"$detailblendfactor" 0.14
+		"$detailblendmode" 0
+
+	"LightmappedGeneric_HDR_DX9"
+	{
+		"$bumpmap" "concrete/observationwall_001a_height-ssbump"
+		"$ssbump" "1"
+
+
+	}
+
+	"LightmappedGeneric_DX9"
+	{
+		"$bumpmap" "concrete/observationwall_001a_height-ssbump"
+		"$ssbump" "1"
+
+	}
+
+	"LightmappedGeneric_DX8"
+	{
+		"$bumpmap" "Concrete/observationwall_001a_normal"
+		"$nodiffusebumplighting" 1
+	}
+
+	"LightmappedGeneric_NoBump_DX8"
+	{
+		"$basetexture" "Concrete/observationwall_001a"
+	}
+
+}

@@ -1,0 +1,214 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "6157"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "216"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	solid
+	{
+		"id" "230"
+		side
+		{
+			"id" "1"
+			"plane" "(0 48 96.5) (16 48 96.5) (16 -48 96.5)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(0 -48 -96.5) (16 -48 -96.5) (16 48 -96.5)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(0 48 96.5) (0 -48 96.5) (0 -48 -96.5)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(16 48 -96.5) (16 -48 -96.5) (16 -48 96.5)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(16 48 96.5) (0 48 96.5) (0 48 -96.5)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(16 -48 -96.5) (0 -48 -96.5) (0 -48 96.5)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 139 128"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "217"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_animsigns/signage_num00.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "sign&i"
+	"origin" "2 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "221"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "Portal.fluorescent_light_hum"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "384"
+	"spawnflags" "16"
+	"targetname" "sound_hum_sign&i"
+	"origin" "16 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11768]"
+	}
+}
+entity
+{
+	"id" "224"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "relay_start_sign_hum&i"
+	connections
+	{
+		"OnTrigger" "sound_hum_sign&i,PlaySound,,0.2,-1"
+		"OnTrigger" "sound_hum_sign&i,Volume,5,0.21,-1"
+		"OnTrigger" "sound_hum_sign&i,Volume,5,0,-1"
+		"OnTrigger" "sound_hum_sign&i,Volume,5,0.3,-1"
+		"OnTrigger" "sound_hum_sign&i,Volume,0,0.5,-1"
+		"OnTrigger" "sound_hum_sign&i,Volume,5,0.7,-1"
+		"OnTrigger" "sound_hum_sign&i,Volume,0,0.8,-1"
+		"OnTrigger" "sound_hum_sign&i,Volume,10,1,-1"
+		"OnTrigger" "sound_hum_sign&i,Volume,5,1.1,-1"
+		"OnTrigger" "sound_hum_sign&i,Volume,10,1.2,-1"
+		"OnTrigger" "sound_hum_sign&i,Volume,5,1.4,-1"
+		"OnTrigger" "sound_hum_sign&i,Volume,10,1.7,-1"
+	}
+	"origin" "16 -32 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -12268]"
+	}
+}
+entity
+{
+	"id" "226"
+	"classname" "logic_relay"
+	"targetname" "relay_sign&i"
+	connections
+	{
+		"OnTrigger" "relay_start_sign_hum&i,Trigger,,0,-1"
+		"OnTrigger" "relay_animate_sign&i,Trigger,,0,-1"
+	}
+	"origin" "16 -32 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -12768]"
+	}
+}
+entity
+{
+	"id" "228"
+	"classname" "logic_relay"
+	"targetname" "relay_animate_sign&i"
+	connections
+	{
+		"OnTrigger" "sign&i,Skin,2,0.3,-1"
+		"OnTrigger" "sign&i,Skin,3,0.4,-1"
+		"OnTrigger" "sign&i,Skin,4,0.6,-1"
+		"OnTrigger" "sign&i,Skin,3,0.8,-1"
+		"OnTrigger" "sign&i,Skin,4,0.9,-1"
+		"OnTrigger" "sign&i,Skin,5,1.1,-1"
+		"OnTrigger" "sign&i,Skin,4,0.3,-1"
+		"OnTrigger" "sign&i,Skin,5,1.5,-1"
+		"OnTrigger" "sign&i,Skin,6,1.8,-1"
+	}
+	"origin" "16 -32 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 16000]"
+	}
+}

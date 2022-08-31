@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	$basetexture "tools/toolsinvisibleladder"
+	%compilenodraw 1
+	%compilepassbullets 1
+	%compileladder 1
+	%compiledetail 1
+}

@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Nature/grassfloor002a"
+	"$surfaceprop" "dirt"
+	"$bumpmap" "Nature/ground_grass04a_height-ssbump"
+	$ssbump 1
+	$detail 	"models/portals/noise-blur-256x256"
+	$detailblendfactor 0.2
+	$detailscale 0.03
+}

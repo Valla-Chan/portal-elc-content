@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_bts/cage_light/cage_light_bts"
+$envmapmask "models\props_bts/cage_light/cage_light_bts_ref"
+$envmap env_cubemap
+$envmaptint 0.7
+$selfillum 1
+$nocull 1
+}

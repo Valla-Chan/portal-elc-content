@@ -1,0 +1,19 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete\concrete_bts_ceiling002a"
+	"$surfaceprop" "concrete"
+	"%keywords" "portal"
+
+		"$bumpmap" "concrete/concrete_bts_ceiling002a_n"
+
+		"$envmap" "env_cubemap"
+		"$normalmapalphaenvmapmask" 1
+		"$envmapcontrast" 1
+		"$envmapsaturation" 1
+		"$envmaptint" "[ .1 .1 .1 ]"
+
+        	"$detail" "detail\detail_concrete_01"
+		"$detailscale" "3"
+		"$detailblendfactor" .3
+		"$detailblendmode" 0
+}

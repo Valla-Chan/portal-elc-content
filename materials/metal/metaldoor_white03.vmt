@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/props_c17/door01a_skin6"
+	$basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0.5 0.5"
+	"$surfaceprop" "metal"
+	"$envmap"  "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$envmaptint" "[ .04 .04 .04 ]"
+	"%keywords" "portal"
+	"%noportal" 1
+
+}

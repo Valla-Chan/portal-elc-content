@@ -1,0 +1,59 @@
+"Water"
+{
+	"%compilewater" 1
+	"%tooltexture" "dev/water_normal"
+$forceexpensive 1
+	"$abovewater" 1
+
+	"$envmap" "env_cubemap"
+	"$refracttexture" "_rt_WaterRefraction"
+	//"$refracttint" "[.75 .75 .75]"
+
+	"$reflectamount" "1.0"
+	//"$reflecttint" "[1 1 1]"
+
+	"$cheapwaterstartdistance" "2000"
+	"$cheapwaterenddistance" "3000"
+		// NOTE: These are only used by DX9 water, since forceExpensive isn't defined.
+		// ALSO NOTE: This *cannot* exist in the root level, because the presence of this 
+		// is used to determine whether to do the reflection in the client DLL
+		"$reflecttexture" "_rt_WaterReflection"
+		"$reflectentities" 1
+		"$refractamount" ".2"
+
+
+	"$scale" "[1 1]"
+
+	"$bumpmap" "nature/water_coast01_dudv"
+	"$normalmap" "nature/water_coast01_normal"
+
+	"$surfaceprop" "water"
+	"$bottommaterial" "nature/water_coast_beneath_clear"
+	"$bumpframe" "0"
+
+	"$fogenable" 1
+	"$fogcolor" "{89 145 145}"
+	"$fogstart" 1.00
+	"$fogend" 1200.00
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .05
+			"texturescrollangle" 45.00
+		}
+
+		"WaterLOD"
+		{
+		}
+	}
+}

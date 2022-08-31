@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "models/props_office/filebox_white_002"
+$surfaceprop cardboard
+}

@@ -1,0 +1,128 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9238"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "49"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "50"
+	"classname" "npc_security_camera"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"spawnflags" "32"
+	"targetname" "cam&i"
+	"origin" "-0.0379944 0 -14.635"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -11768]"
+	}
+}
+entity
+{
+	"id" "52"
+	"classname" "func_portal_detector"
+	"spawnflags" "0"
+	connections
+	{
+		"OnStartTouchLinkedPortal" "cam&i,Ragdoll,,0,-1"
+	}
+	solid
+	{
+		"id" "53"
+		side
+		{
+			"id" "1"
+			"plane" "(3.96194 2 -15.7471) (3.96194 -2 -15.7471) (3.96194 -2 -13.7461)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 48] 0.25"
+			"vaxis" "[0 0 -1 -54.9905] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-0.0351563 2 -13.748) (3.96292 2 -13.748) (3.96292 -2 -13.748)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 48] 0.25"
+			"vaxis" "[1 0 0 48.1504] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-0.0390625 -2 -15.748) (3.96286 -2 -15.748) (3.96286 2 -15.748)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 48] 0.25"
+			"vaxis" "[1 0 0 48.1504] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(3.96292 -2 -13.7461) (3.96292 -2 -15.748) (-0.0379791 -2 -15.748)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0 0 -48.1504] 0.25"
+			"vaxis" "[0 0 -1 -54.9905] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-0.0390625 2 -15.7461) (3.96286 2 -15.7461) (3.96286 2 -13.7461)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0 0 -48.1504] 0.25"
+			"vaxis" "[0 0 -1 -54.9905] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-0.0380249 -2 -15.747) (-0.0380249 2 -15.747) (-0.0380249 2 -13.7461)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 -1 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -54.9905] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "200 193 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -10768]"
+	}
+}

@@ -1,0 +1,25 @@
+"UnlitGeneric"
+{
+	"$basetexture" "effects/splash1"
+	//"$basetexture" "effects/goosplash_ani"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$translucent" "1"
+	$frame 0
+	$zero 0
+
+Proxies
+{
+	Equals
+	{
+	srcVar1 "$zero"
+	resultVar "$frame"
+	}
+//	"AnimatedTexture" 
+//	{ 
+//		"animatedTextureVar" "$basetexture" 
+//		"animatedTextureFrameNumVar" "$frame" 
+//		"animatedTextureFrameRate" "10" 
+//	}
+}
+}

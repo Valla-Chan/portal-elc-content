@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/metalgrate018b"
+	"%compilepassbullets" 1
+	"$surfaceprop" "metalgrate"
+	"%keywords" "portal"
+	//"$translucent" 1
+	"$AlphaTest" "1"
+	"$AlphaTestReference" "0.3"
+	"$AllowAlphaToCoverage" "1"
+
+}

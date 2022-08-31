@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_bts/lamp_standard01_off"
+	"$nocull" 1
+
+	"$alphatest" 1
+	$allowalphatocoverage 1
+
+}

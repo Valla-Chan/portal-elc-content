@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props_bts\glados_ball_interior"
+	$selfillum 1
+	$selfillumtint "[1 1 1]"
+
+	//change this $value to change the red/blue tint to be brighter for sparking
+	$value 1
+
+"Proxies"
+{
+Equals
+{
+	srcVar1	"$value"
+	resultvar	"$selfillumtint[0]"
+}
+Equals
+{
+	srcVar1	"$value"
+	resultvar	"$selfillumtint[2]"
+}
+
+}

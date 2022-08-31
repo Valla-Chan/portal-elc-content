@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"overlays/overlays_scrawlings_009"
+	"$surfaceprop"	"default"
+	"$translucent"	1
+	"$decal"	1
+	$alpha 0.8
+}
