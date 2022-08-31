@@ -46,7 +46,6 @@ hazard_liquid_ani*
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
