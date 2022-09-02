@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9238"
-	"mapversion" "2575"
+	"mapversion" "2576"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -44,12 +44,13 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2575"
+	"mapversion" "2576"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_wasteland02"
+	"targetname" "pepticsalve"
 	solid
 	{
 		"id" "566"

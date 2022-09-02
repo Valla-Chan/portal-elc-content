@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9238"
-	"mapversion" "2268"
+	"mapversion" "2269"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,12 +26,13 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2268"
+	"mapversion" "2269"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_wasteland02"
+	"targetname" "complianceissues"
 	solid
 	{
 		"id" "16725"
@@ -98701,6 +98702,168 @@ entity
 }
 entity
 {
+	"id" "638246"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"effect_name" "water_ripples"
+	"start_active" "0"
+	"targetname" "water_ripples_plat1"
+	"origin" "576 1792 -126.972"
+	editor
+	{
+		"color" "230 111 0"
+		"groupid" "638244"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "638584"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"effect_name" "water_ripples"
+	"start_active" "0"
+	"targetname" "water_ripples"
+	"origin" "384 1792 -126.972"
+	editor
+	{
+		"color" "230 111 0"
+		"groupid" "638582"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "638652"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"effect_name" "water_ripples"
+	"start_active" "0"
+	"targetname" "water_ripples_plat2"
+	"origin" "192 1792 -126.972"
+	editor
+	{
+		"color" "230 111 0"
+		"groupid" "638650"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "638720"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"effect_name" "water_ripples"
+	"start_active" "0"
+	"targetname" "water_ripples"
+	"origin" "0 1856 -126.972"
+	editor
+	{
+		"color" "230 111 0"
+		"groupid" "638718"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "638788"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"effect_name" "water_ripples"
+	"start_active" "0"
+	"targetname" "water_ripples"
+	"origin" "0 1728 -126.972"
+	editor
+	{
+		"color" "230 111 0"
+		"groupid" "638786"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "638856"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"effect_name" "water_ripples"
+	"start_active" "0"
+	"targetname" "water_ripples"
+	"origin" "768 1856 -126.972"
+	editor
+	{
+		"color" "230 111 0"
+		"groupid" "638854"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "638924"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"effect_name" "water_ripples"
+	"start_active" "0"
+	"targetname" "water_ripples"
+	"origin" "768 1728 -126.972"
+	editor
+	{
+		"color" "230 111 0"
+		"groupid" "638922"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "638992"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"effect_name" "water_ripples"
+	"start_active" "0"
+	"targetname" "water_ripples"
+	"origin" "896 1728 -126.972"
+	editor
+	{
+		"color" "230 111 0"
+		"groupid" "638990"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "639060"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"effect_name" "water_ripples"
+	"start_active" "0"
+	"targetname" "water_ripples"
+	"origin" "896 1856 -126.972"
+	editor
+	{
+		"color" "230 111 0"
+		"groupid" "639058"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
 	"id" "146"
 	"classname" "info_player_start"
 	"angles" "0 180 0"
@@ -154695,168 +154858,6 @@ entity
 }
 entity
 {
-	"id" "638246"
-	"classname" "info_particle_system"
-	"angles" "0 0 0"
-	"effect_name" "water_ripples"
-	"start_active" "0"
-	"targetname" "water_ripples_plat1"
-	"origin" "576 1792 -126.972"
-	editor
-	{
-		"color" "230 111 0"
-		"groupid" "638244"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "638584"
-	"classname" "info_particle_system"
-	"angles" "0 0 0"
-	"effect_name" "water_ripples"
-	"start_active" "0"
-	"targetname" "water_ripples"
-	"origin" "384 1792 -126.972"
-	editor
-	{
-		"color" "230 111 0"
-		"groupid" "638582"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "638652"
-	"classname" "info_particle_system"
-	"angles" "0 0 0"
-	"effect_name" "water_ripples"
-	"start_active" "0"
-	"targetname" "water_ripples_plat2"
-	"origin" "192 1792 -126.972"
-	editor
-	{
-		"color" "230 111 0"
-		"groupid" "638650"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "638720"
-	"classname" "info_particle_system"
-	"angles" "0 0 0"
-	"effect_name" "water_ripples"
-	"start_active" "0"
-	"targetname" "water_ripples"
-	"origin" "0 1856 -126.972"
-	editor
-	{
-		"color" "230 111 0"
-		"groupid" "638718"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "638788"
-	"classname" "info_particle_system"
-	"angles" "0 0 0"
-	"effect_name" "water_ripples"
-	"start_active" "0"
-	"targetname" "water_ripples"
-	"origin" "0 1728 -126.972"
-	editor
-	{
-		"color" "230 111 0"
-		"groupid" "638786"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "638856"
-	"classname" "info_particle_system"
-	"angles" "0 0 0"
-	"effect_name" "water_ripples"
-	"start_active" "0"
-	"targetname" "water_ripples"
-	"origin" "768 1856 -126.972"
-	editor
-	{
-		"color" "230 111 0"
-		"groupid" "638854"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "638924"
-	"classname" "info_particle_system"
-	"angles" "0 0 0"
-	"effect_name" "water_ripples"
-	"start_active" "0"
-	"targetname" "water_ripples"
-	"origin" "768 1728 -126.972"
-	editor
-	{
-		"color" "230 111 0"
-		"groupid" "638922"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "638992"
-	"classname" "info_particle_system"
-	"angles" "0 0 0"
-	"effect_name" "water_ripples"
-	"start_active" "0"
-	"targetname" "water_ripples"
-	"origin" "896 1728 -126.972"
-	editor
-	{
-		"color" "230 111 0"
-		"groupid" "638990"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "639060"
-	"classname" "info_particle_system"
-	"angles" "0 0 0"
-	"effect_name" "water_ripples"
-	"start_active" "0"
-	"targetname" "water_ripples"
-	"origin" "896 1856 -126.972"
-	editor
-	{
-		"color" "230 111 0"
-		"groupid" "639058"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
 	"id" "639320"
 	"classname" "logic_auto"
 	"spawnflags" "1"
@@ -154878,8 +154879,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[403.957 873.636 107.026]"
-		"look" "[444.019 818.466 75.5234]"
+		"position" "[425.338 940.442 103.092]"
+		"look" "[453.341 871.083 96.2867]"
 	}
 }
 cordon

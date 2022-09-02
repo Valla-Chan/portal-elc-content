@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9238"
-	"mapversion" "1183"
+	"mapversion" "1186"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,13 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1183"
+	"mapversion" "1186"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_wasteland02"
+	"targetname" "discouragement"
 	solid
 	{
 		"id" "201236"
@@ -88005,8 +88006,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[40.1767 -63.6263 134.095]"
-		"look" "[-273.017 337.311 148.308]"
+		"position" "[231.282 -152.3 130.345]"
+		"look" "[-135.042 177.593 3.77265]"
 	}
 }
 cordon

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9238"
-	"mapversion" "1950"
+	"mapversion" "1951"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -68,12 +68,13 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1912"
+	"mapversion" "1951"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_wasteland02"
+	"targetname" "firecourse"
 	solid
 	{
 		"id" "455"
@@ -180786,7 +180787,7 @@ entity
 	"origin" "-864 1160 192"
 	editor
 	{
-		"color" "109 230 0"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9238"
-	"mapversion" "1424"
+	"mapversion" "1425"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,12 +38,13 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "46"
+	"mapversion" "1425"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_wasteland02"
+	"targetname" "pitcube-doublebuttons"
 	solid
 	{
 		"id" "3991"

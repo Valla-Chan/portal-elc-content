@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9238"
-	"mapversion" "1190"
+	"mapversion" "1191"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -50,12 +50,13 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1190"
+	"mapversion" "1191"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_wasteland02"
+	"targetname" "pelletovergoo"
 	solid
 	{
 		"id" "491"

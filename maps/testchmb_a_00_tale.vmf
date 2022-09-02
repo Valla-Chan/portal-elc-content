@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9238"
-	"mapversion" "2464"
+	"mapversion" "2466"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -62,12 +62,13 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2464"
+	"mapversion" "2466"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_wasteland02"
+	"targetname" "buttonintro-portalcarousel"
 	solid
 	{
 		"id" "9676"
@@ -24518,7 +24519,7 @@ world
 			"id" "3757"
 			"plane" "(-240 -448 384) (-240 -448 256) (-112 -448 256)"
 			"material" "CONCRETE/OBSERVATIONWALL_001B"
-			"uaxis" "[1 0 0 256] 0.25"
+			"uaxis" "[1 0 0 960] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -24727,7 +24728,7 @@ world
 			"id" "3708"
 			"plane" "(-112 -192 384) (-112 -192 256) (-240 -192 256)"
 			"material" "CONCRETE/OBSERVATIONWALL_001B"
-			"uaxis" "[1 0 0 256] 0.25"
+			"uaxis" "[1 0 0 960] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -50811,7 +50812,7 @@ hidden
 				{
 					"color" "156 225 0"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -50919,7 +50920,7 @@ hidden
 				{
 					"color" "240 105 0"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -52162,7 +52163,7 @@ hidden
 				{
 					"color" "241 250 0"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -52271,7 +52272,7 @@ hidden
 				{
 					"color" "241 250 0"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -52681,7 +52682,7 @@ hidden
 				{
 					"color" "241 250 0"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -52793,7 +52794,7 @@ hidden
 				{
 					"color" "241 250 0"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -61989,7 +61990,7 @@ hidden
 				{
 					"color" "232 117 0"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -62728,7 +62729,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -62974,7 +62975,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -63273,7 +63274,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -63352,7 +63353,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -63431,7 +63432,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -68009,7 +68010,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -68135,7 +68136,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -69944,7 +69945,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -73139,7 +73140,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -73440,7 +73441,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -73538,7 +73539,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -76162,7 +76163,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -77570,7 +77571,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -80399,7 +80400,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -81418,7 +81419,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -84361,7 +84362,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -101803,7 +101804,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -101927,7 +101928,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -102113,7 +102114,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -102333,7 +102334,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -102437,7 +102438,7 @@ hidden
 				{
 					"color" "220 30 220"
 					"visgroupshown" "1"
-					"visgroupautoshown" "0"
+					"visgroupautoshown" "1"
 				}
 			}
 		}
@@ -108811,8 +108812,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-598.66 -352.199 220.517]"
-		"look" "[-333.498 -89.0078 197.012]"
+		"position" "[-321.583 -117.111 323.167]"
+		"look" "[-525.514 -381.796 154.384]"
 	}
 }
 cordon

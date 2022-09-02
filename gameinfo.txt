@@ -1,7 +1,7 @@
 "GameInfo"
 {
 	game			"Portal: Every Last Crumb"
-	title 		""
+	title 			""
 	gamelogo 1
 	type			singleplayer_only
 	
