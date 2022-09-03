@@ -1,0 +1,10 @@
+bonus_maps_manifest
+{
+	"dir"		"scripts/advanced_chambers"
+	"dir"		"scripts/challenges"
+	
+	"dir"		"scripts/menu_backgrounds"
+
+	"map"		"scripts/challenges/challenges.bns"
+	"map"		"scripts/advanced_chambers/advanced_chambers.bns"
+}

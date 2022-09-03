@@ -1,0 +1,15 @@
+"#MenuBackground_01"
+{
+	"map"		"bckgloader_1"
+	//"chapter"	"MenuBackground01.cfg"	
+	//"image"		"bonusmaps/testchmb_a_09_advanced"
+	"comment"	"#MenuBackground_01"
+}
+
+"#MenuBackground_02"
+{
+	"map"		"bckgloader_2"
+	//"chapter"	"MenuBackground02.cfg"	
+	//"image"		"bonusmaps/testchmb_a_09_advanced"
+	"comment"	"#MenuBackground_02"
+}
