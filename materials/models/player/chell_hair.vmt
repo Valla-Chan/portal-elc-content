@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player/chell_hair"
+
+
+	"$bumpmap" "models\player/chell_hair_normal"
+	"$phong" "1"
+	"$phongexponenttexture" "models\player/chell_hair_exponent"
+	
+	"$phongboost" "1"	
+//	"$lightwarptexture" "models\player/chell_hair_lightwarp"
+	"$phongfresnelranges"	"[0 0.1 1]"
+
+
+	"$translucent" 1
+	"$halflambert" 1
+	"$nodecal" "1"
+	"$nocull" 1 
+
+}
