@@ -3,4 +3,18 @@
 	"$basetexture" 		"logo\Portal_Logo"
 	"$ignorez"		1
 	"$translucent" 1
+
+$alphaorig -0.3
+
+Proxies
+{
+
+	LinearRamp
+	{
+	"rate" "0.3"
+	"initialValue" $alphaorig
+	"resultvar" "$alpha"
+	}
+
+}
 }
