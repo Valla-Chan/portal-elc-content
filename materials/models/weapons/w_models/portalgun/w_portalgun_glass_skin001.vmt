@@ -5,7 +5,7 @@
 	insert
 	{
 		"$FleshInteriorEnabled"      "1" // Enables effect
-		$fleshbordertint "[0 0.4 1]"
+		$fleshbordertint "[0 0.3 1]"
 		"$phongtint" "[0.7 0.9 1]"	
 	}
 
