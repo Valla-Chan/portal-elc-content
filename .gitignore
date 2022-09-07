@@ -61,3 +61,6 @@ hazard_liquid_ani*
 # Executables
 *.out
 *.app
+bin/Prefabs
+cfg/config.cfg
+cfg/server_blacklist.txt
