@@ -2,7 +2,7 @@
 {
 	"$baseTexture" "models\props_bts/glados_ball_cc"
 	"envmap" "env_cubemap"
-      //  "$selfillum" 1
+       // "$selfillum" 1
 $blendtintbybasealpha 1
 	"$surfaceprop"	"metal"
 	"$bumpmap"	"models/props_bts/glados_ball_normal"

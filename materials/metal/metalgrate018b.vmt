@@ -6,7 +6,7 @@
 	"%keywords" "portal"
 	//"$translucent" 1
 	"$AlphaTest" "1"
-	"$AlphaTestReference" "0.3"
+	"$AlphaTestReference" "0.4"
 	"$AllowAlphaToCoverage" "1"
 
 }

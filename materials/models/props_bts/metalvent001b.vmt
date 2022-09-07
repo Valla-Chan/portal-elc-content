@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "models/props_bts/metalvent001a"
+$surfaceprop metal
+
+}
