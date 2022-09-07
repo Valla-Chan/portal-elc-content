@@ -6,6 +6,7 @@ VertexLitGeneric
 
 	//change this $value to change the red/blue tint to be brighter for sparking
 	$value 1
+	$one 1
 
 "Proxies"
 {
@@ -19,5 +20,13 @@ Equals
 	srcVar1	"$value"
 	resultvar	"$selfillumtint[2]"
 }
-
+Divide
+{
+	srcVar1	"$one"
+	srcVar2	"$value"
+	resultvar	"$selfillumtint[1]"
+}
+	MaterialModify
+	{
+	}
 }

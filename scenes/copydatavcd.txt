@@ -1,12 +1,12 @@
 // Choreo version 1
 actor "Aperture_AI"
 {
-  channel "speech"
+  channel "triggers"
   {
-    event interrupt "i5"
+    event firetrigger "sphere"
     {
-      time 100.458336 101.250000
-      param ""
+      time 31.845472 -1.000000
+      param "4"
     }
   }
 }

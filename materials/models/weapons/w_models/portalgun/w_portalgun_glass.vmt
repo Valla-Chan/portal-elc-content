@@ -22,6 +22,7 @@ $nocull 0
 // FLESH
 "$FleshInteriorEnabled"      "0" // Enables effect
 	"$fleshinteriortexture" "dev/flat_normal"
+	"$fleshsubsurfacetexture" "dev/flat_normal"
 	"$FleshNormalTexture" "dev/flat_normal"
 
 	$fleshbordersoftness 2

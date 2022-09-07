@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9238"
-	"mapversion" "1191"
+	"mapversion" "1193"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -50,7 +50,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1191"
+	"mapversion" "1193"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11019,9 +11019,9 @@ world
 		{
 			"id" "210225"
 			"plane" "(-896 192 128) (-896 192 192) (-896 64 192)"
-			"material" "METAL/METALWALL048B"
-			"uaxis" "[0 1 0 256] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "CONCRETE/CONCRETE_MODULAR_CEILING001A"
+			"uaxis" "[0 1 0 256] 0.5"
+			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -46485,13 +46485,17 @@ entity
 {
 	"id" "89392"
 	"classname" "point_spotlight"
+	"alpha" "64"
 	"angles" "0 90 0"
 	"HDRColorScale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "238 108 53"
+	"scale" "60"
 	"spawnflags" "3"
 	"spotlightlength" "800"
+	"SpotlightTexture" "sprites/glow_test02.vmt"
 	"spotlightwidth" "32"
+	"SpriteTexture" "sprites/light_glow03.vmt"
 	"targetname" "catcher_spotlight"
 	"origin" "320 -128 48"
 	editor
@@ -66437,13 +66441,35 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "262270"
+	"classname" "color_correction"
+	"fadeInDuration" "2"
+	"fadeOutDuration" "2"
+	"filename" "scripts/colorcorrection/cc_testchamber_reds.raw"
+	"maxfalloff" "-1"
+	"maxweight" "1.0"
+	"minfalloff" "-1"
+	"StartDisabled" "0"
+	"targetname" "color_correction_testchamber"
+	"origin" "-434.576 184 55.0698"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "antlion tunnel cc. is on all the time by default."
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[6.92463 102.845 29.4222]"
-		"look" "[-194.286 335.965 -22.663]"
+		"position" "[-1071.11 45.7389 78.0928]"
+		"look" "[-794.655 190.254 93.3494]"
 	}
 }
 cordon

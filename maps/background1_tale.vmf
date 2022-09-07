@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9238"
-	"mapversion" "2495"
+	"mapversion" "2496"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -68,7 +68,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2495"
+	"mapversion" "2496"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -22777,13 +22777,35 @@ entity
 		"logicalpos" "[0 3000]"
 	}
 }
+entity
+{
+	"id" "722600"
+	"classname" "color_correction"
+	"fadeInDuration" "2"
+	"fadeOutDuration" "2"
+	"filename" "scripts/colorcorrection/cc_testchamber_reds.raw"
+	"maxfalloff" "-1"
+	"maxweight" "1.0"
+	"minfalloff" "-1"
+	"StartDisabled" "0"
+	"targetname" "color_correction_testchamber"
+	"origin" "-404.202 -319.78 136"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "antlion tunnel cc. is on all the time by default."
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
 		"position" "[-303.847 -217.991 296.447]"
-		"look" "[-454.755 -527.199 148.974]"
+		"look" "[-481.853 -485.765 104.764]"
 	}
 }
 cordon
