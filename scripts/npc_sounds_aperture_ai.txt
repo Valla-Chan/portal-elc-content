@@ -2344,7 +2344,37 @@
 
 //compassion
 
+"Portal.finalexperiment_failure_01"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/finalexperiment_failure_01.wav"
+}
 
+"Portal.finalexperiment_failure_02"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/finalexperiment_failure_02.wav"
+}
+
+"Portal.finalexperiment_failure_03"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/finalexperiment_failure_03.wav"
+}
+
+"Portal.finalexperiment_failure_04"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/finalexperiment_failure_04.wav"
+}
 
 "Portal.goodsurprise_02"
 {
@@ -2399,4 +2429,5 @@
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"		"vo/aperture_ai/postbattle_finalnags00a.wav"
 }
+
 

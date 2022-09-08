@@ -1,12 +1,16 @@
 // Choreo version 1
 actor "Aperture_AI"
 {
-  channel "triggers"
+  channel "voice"
   {
-    event firetrigger "sphere"
+    event speak "Portal.GlaDOS.core_nag_10"
     {
-      time 31.845472 -1.000000
-      param "4"
+      time 14.571935 21.071980
+      param "Portal.finalexperiment_failure_03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
     }
   }
 }

@@ -1,0 +1,59 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "voice"
+  {
+    event speak "Portal.GlaDOS.core_nag_10"
+    {
+      time 0.032252 8.693295
+      param "Portal.finalexperiment_failure_01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+    event speak "Portal.GlaDOS.core_nag_10"
+    {
+      time 8.976697 14.003681
+      param "Portal.finalexperiment_failure_02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+    event speak "Portal.GlaDOS.core_nag_10"
+    {
+      time 14.571935 21.071980
+      param "Portal.finalexperiment_failure_03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+    event speak "Portal.GlaDOS.core_nag_10"
+    {
+      time 21.238602 26.544270
+      param "Portal.finalexperiment_failure_04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+mapname "maps\escape_02.bsp"
+scalesettings
+{
+  "CChoreoView" "40"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
