@@ -7,8 +7,6 @@
 	
 	nodifficulty	1
 	hasportals		1
-	nocrosshair     1
-	nomodels        1
 
 	developer		"Allison Ghost"
 	developer_url	""
