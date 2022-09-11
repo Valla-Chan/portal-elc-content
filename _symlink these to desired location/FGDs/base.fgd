@@ -102,6 +102,7 @@
 
 	// Outputs
 	output OnIgnite(void) : "Fired when this object catches fire."
+	output OnDissolved(void) : "Fired when this object is dissolved."
 ]
 
 @BaseClass = BasePlat
