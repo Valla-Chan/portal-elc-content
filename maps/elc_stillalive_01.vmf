@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9238"
-	"mapversion" "125"
+	"mapversion" "126"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "125"
+	"mapversion" "126"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -36020,7 +36020,7 @@ entity
 {
 	"id" "1819"
 	"classname" "trigger_once"
-	"origin" "784 256 192"
+	"origin" "464 384 256"
 	"spawnflags" "1"
 	"StartDisabled" "0"
 	connections
@@ -36034,7 +36034,7 @@ entity
 		side
 		{
 			"id" "2256"
-			"plane" "(800 320 256) (800 192 256) (768 192 256)"
+			"plane" "(128 128 384) (128 640 384) (800 640 384)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -36045,7 +36045,7 @@ entity
 		side
 		{
 			"id" "2255"
-			"plane" "(768 320 128) (768 192 128) (800 192 128)"
+			"plane" "(128 640 128) (128 128 128) (800 128 128)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -36056,7 +36056,7 @@ entity
 		side
 		{
 			"id" "2254"
-			"plane" "(800 320 128) (800 192 128) (800 192 256)"
+			"plane" "(800 640 128) (800 128 128) (800 128 384)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -36067,7 +36067,7 @@ entity
 		side
 		{
 			"id" "2253"
-			"plane" "(768 192 128) (768 320 128) (768 320 256)"
+			"plane" "(128 128 128) (128 640 128) (128 640 384)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -36078,7 +36078,7 @@ entity
 		side
 		{
 			"id" "2252"
-			"plane" "(800 192 128) (768 192 128) (768 192 256)"
+			"plane" "(800 128 128) (128 128 128) (128 128 384)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -36089,7 +36089,7 @@ entity
 		side
 		{
 			"id" "2251"
-			"plane" "(768 320 128) (800 320 128) (800 320 256)"
+			"plane" "(128 640 128) (800 640 128) (800 640 384)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"

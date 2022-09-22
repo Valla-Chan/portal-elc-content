@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9238"
-	"mapversion" "282"
+	"mapversion" "283"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "282"
+	"mapversion" "283"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -66844,7 +66844,7 @@ entity
 {
 	"id" "19170"
 	"classname" "trigger_once"
-	"origin" "864 624 224"
+	"origin" "864 736 224"
 	"spawnflags" "1"
 	"StartDisabled" "0"
 	connections
@@ -66858,7 +66858,7 @@ entity
 		side
 		{
 			"id" "10118"
-			"plane" "(992 512 352) (736 512 352) (736 736 352)"
+			"plane" "(1056 512 352) (672 512 352) (672 960 352)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
@@ -66869,7 +66869,7 @@ entity
 		side
 		{
 			"id" "10117"
-			"plane" "(992 736 96) (736 736 96) (736 512 96)"
+			"plane" "(1056 960 96) (672 960 96) (672 512 96)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
@@ -66880,7 +66880,7 @@ entity
 		side
 		{
 			"id" "10116"
-			"plane" "(992 512 96) (736 512 96) (736 512 352)"
+			"plane" "(1056 512 96) (672 512 96) (672 512 352)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -66891,7 +66891,7 @@ entity
 		side
 		{
 			"id" "10115"
-			"plane" "(736 736 96) (992 736 96) (992 736 352)"
+			"plane" "(672 960 96) (1056 960 96) (1056 960 352)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -66902,7 +66902,7 @@ entity
 		side
 		{
 			"id" "10114"
-			"plane" "(736 512 96) (736 736 96) (736 736 352)"
+			"plane" "(672 512 96) (672 960 96) (672 960 352)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -66913,7 +66913,7 @@ entity
 		side
 		{
 			"id" "10113"
-			"plane" "(992 736 96) (992 512 96) (992 512 352)"
+			"plane" "(1056 960 96) (1056 512 96) (1056 512 352)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
