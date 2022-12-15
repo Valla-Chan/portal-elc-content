@@ -8,6 +8,8 @@
 	"$envmap" "env_cubemap"
 	$normalmapenvmapmask 1
 	"$envmaptint" "[.60 .70 .75]"
+	
+	//$alpha 90
 
 	"$additive" "1"
 	"$translucent" 1

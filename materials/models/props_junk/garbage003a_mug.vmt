@@ -1,0 +1,9 @@
+
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "Models/props_junk/garbage003a_mug"
+	"$surfaceprop" "cardboard"
+	"$nodecal" 1
+}
+

@@ -4,5 +4,5 @@
 	"$surfaceprop" "glass"
 	"$selfillum" 1
 	"%keywords" "portal"
-	$basetexturetransform "center .5 .5 scale 2 2 rotate 0 translate 0 0.5"
+	$basetexturetransform "center .5 .5 scale 8 8 rotate 0 translate 0 0.5"
 }
