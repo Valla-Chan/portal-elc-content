@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+$basetexture "models/props_bts/bts_fixture_handrails/bts_Fixture_Rail"
+$surfaceprop metal
+$phong 0
+$phongexponenttexture "models/props_bts/bts_fixture_handrails/bts_Fixture_Rail_exp"
+$phongboost "2"
+$halflambert 0
+$phongalbedotint 1
+$phongfresnelranges "[0.9 .04 0.8]"
+
+$envmap env_cubemap
+$envmaptint "[0.02 0.02 0.02]"
+
+$basemapalphaphongmask 1
+}

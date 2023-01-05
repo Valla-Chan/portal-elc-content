@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lab/tpplug_sheet"
+	   "$envmap" "env_cubemap"
+     	"$envmaptint" "[ .25 .25 .25]"
+	"$surfaceprop" "metal"
+
+$phong 1
+$phongexponenttexture "models/props_lab/tpplug_sheet_exp"
+$phongboost "13"
+$phongalbedotint 1
+$phongfresnelranges "[0.9 .04 0.8]"
+
+$basemapalphaphongmask 1
+}

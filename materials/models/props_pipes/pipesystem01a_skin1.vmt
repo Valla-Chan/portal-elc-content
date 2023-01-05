@@ -4,8 +4,16 @@
 	"$surfaceprop" "metal"
 	$basetexturetransform "center .5 .5 scale 2 1 rotate 0 translate 0 0"
 
-//	"$envmap" "env_cubemap"
+	"$envmap" "env_cubemap"
  //	"$basealphaenvmapmask" 1
-//	"$envmaptint" "[ .125 .125 .125]"
+	"$envmaptint" "[ .0225 .0225 .0225]"
+
+$phong 1
+$phongexponenttexture "models/props_pipes/Pipesystem01a_exp"
+$phongboost "30"
+$phongalbedotint 1
+$phongfresnelranges "[3 .04 0.8]"
+
+$basemapalphaphongmask 1
 }
 

@@ -158,16 +158,25 @@
 	input Enable(void)		: "Turn on detecting functionality"
 	input Toggle(void)		: "Toggle detecting functionality"
 
-	output OnStartTouchPortal1(void)		: "Fired when portal 1 is placed intersecting the portal detector."
-	output OnStartTouchPortal2(void)		: "Fired when portal 2 is placed intersecting the portal detector."
+	output OnStartTouchPortal(void) 			: "Fired when any portal touches the detector."	
+	output OnEndTouchPortal(void) 				: "Fired when any portal leaves the detector bounds."
+	output OnStartTouchPortal1(void)			: "Fired when portal 1 is placed intersecting the portal detector."
+	output OnStartTouchPortal2(void)			: "Fired when portal 2 is placed intersecting the portal detector."
+	output OnStartTouchLinkedPortal1(void)			: "Fired when portal 2 is placed intersecting the portal detector."
+	output OnStartTouchLinkedPortal2(void)			: "Fired when portal 2 is placed intersecting the portal detector."
 	output OnStartTouchLinkedPortal(void)		: "Fired when linked portal is placed intersecting the portal detector."
 	output OnStartTouchBothLinkedPortals(void)	: "Fired when both of a pair of portals is placed intersecting the portal detector."
+	output OnEndTouchPortal1(void)				: "Fired when portal 1 has left the volume of the detector"
+	output OnEndTouchPortal2(void)				: "Fired when portal 2 has left the volume of the detector"
+	output OnEndTouchLinkedPortal(void)			: "Fired when a portal with a linked partner has left the volume of the detector"
+	output OnEndTouchBothLinkedPortals(void)	: "Fired when both portals have left the volume of the detector"
 
 	spawnflags(Flags) = 
 	[
 		1: "Start inactive" : 0
 	]
 	LinkageGroupID(integer) : "Portal pair ID that it detects" : 0
+	CheckAllIDs(integer) : "Check all portals" : 0 : "Ignore the Group ID and check for all portals."
 ]
 
 
@@ -520,4 +529,5 @@
 	output OnNotEqualTo(float) : "Fired when the input value is different from the compare value. Sends the input value as data." 
 	output OnGreaterThan(float) : "Fired when the input value is greater than the compare value. Sends the input value as data."
 ]
+
 

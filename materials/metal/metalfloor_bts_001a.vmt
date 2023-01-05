@@ -11,10 +11,11 @@
 	"$surfaceprop" "metal"
 	"%keywords" "portal"
 	//"$envmaptint" "[0.8 0.8 0.8]"
-	"$envmaptint" "[0.3 0.3 0.3]"
+	//"$envmaptint" "[0.3 0.3 0.3]"
+	"$envmaptint" "[0.01 0.01 0.01]"
 	"$envmap" "env_cubemap"
-	"$normalmapalphaenvmapmask" 1
-	"$envmapcontrast" 1
+	"$normalmapalphaenvmapmask" 0 //1
+	"$envmapcontrast" 0 //1
 	"$envmapsaturation" 1
 	"%noportal" 1
 	"$reflectivity" "[.35 .30 .27 ]" //this is a artificial radiosity boost
