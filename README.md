@@ -6,3 +6,5 @@ All assets here are free to use in any Portal project, but credit MUST be given 
 
 Asset usage should be credited as:
 Portal: Every Last Crumb assets by Allison Ghost (Valla-Chan)
+
+Releases contains the BSPs and a fix for the missing hazard liquid VTF.
